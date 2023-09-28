@@ -1,0 +1,134 @@
+h3 {
+    color: navy;
+}
+
+div {
+    color: #fb7d9e;
+}
+
+strong {
+    color: rgb(125, 50, 168);
+}
+
+div#d1 {
+    height: 300px;
+    width: 400px;
+    background-color: blue;
+}
+
+div#d2 {
+    height: 50px;
+    width: 150px;
+    background-color: thistle;
+}
+
+div#d3 {
+    height: 300px;
+    width: 400px;
+    background-color: orange;
+}
+
+span {
+    background-color: rgb(50, 88, 168);
+    color: white;
+}
+
+div#d10 {
+    height: 30px;
+    width: 200px;
+    border-radius: 100px;
+    background-color: red;
+}
+div#d20 {
+    height: 30px;
+    width: 200px;
+    border-radius: 100px;
+    background-color: orange;
+}
+div#d30 {
+    height: 30px;
+    width: 200px;
+    border-radius: 100px;
+    background-color: yellow;
+}
+div#d40 {
+    height: 30px;
+    width: 200px;
+    border-radius: 100px;
+    background-color: green;
+}
+div#d50 {
+    height: 30px;
+    width: 200px;
+    border-radius: 100px;
+    background-color: blue;
+}
+div#d60 {
+    height: 30px;
+    width: 200px;
+    border-radius: 100px;
+    background-color: indigo;
+}
+div#d70 {
+    height: 30px;
+    width: 200px;
+    border-radius: 100px;
+    background-color: violet;
+}
+
+img {
+    height: 250px;
+    width: 400px;
+}
+
+div#dd {
+    height: 450px;
+    width: 400px;
+    background-color: yellow;
+}
+div#body {
+    background-color: #141110;
+    height: 400px;
+    width: 450px;
+}
+span#hello {
+    color: #0b4708;
+    font-size: 36px;
+    text-align: center;
+}
+
+div#back {
+    background-color: #0f7458;
+}
+div#circle {
+     width: 90px;
+     height: 90px;
+     background-color: rgb(170, 123, 15);
+     border-radius: 50px;
+}
+div#rectangle {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(220, 198, 146);
+    
+}
+div#txt {
+    width: 800px;
+    height: 100px;
+    background-color: rgb(78, 31, 11);
+    color: pink;
+    text-align: center;
+} 
+
+div#w1 {
+    background-color: #2a0f74;
+    color: #1c6fb3;
+}
+div#w2 {
+    background-color: #0f5392;
+    color: #1ca6b3;
+}
+div#w3 {
+    background-color: #72be1b;
+    color: #d5ea16;
+}
