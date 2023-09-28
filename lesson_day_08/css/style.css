@@ -1,0 +1,25 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#top {
+    font-style: italic;
+    background-color: aqua;
+}
+
+#introduction {
+    font-family: fantasy;
+}
+
+ul {
+    font-style: italic;
+}
+
+ul li {
+    background-color: rgb(234, 241, 237);
+    line-height: 30px;
+}
+
+.note {
+    text-align: right;
+}
