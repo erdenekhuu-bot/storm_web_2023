@@ -1,0 +1,138 @@
+span {
+    font-weight: bold;
+}
+#sp {
+    font-style: italic;
+}
+#up {
+    text-transform: capitalize;
+}
+
+#up::first-letter {
+    text-transform: capitalize;
+}
+.underline {
+    text-decoration: underline;
+}
+.midline {
+    text-decoration: line-through;
+}
+.pt {
+    color: blue;
+    
+}
+.pt:visited {
+    color: yellow;
+}
+.pt:hover {
+    cursor: pointer;
+    color: black;
+} 
+
+.cls:hover {
+    background-color: gray;
+    font-size: 28px;
+    border-style: dotted;
+}
+.st1 {
+    background-color: orange;
+    color: white;
+    width: 200px;
+    height: 250px;
+    border: none;
+    border-radius: 30px;
+}
+.st1:focus {
+    width: 400px;
+    height: 250px;
+    background-color: green;
+    color: black;
+    border: 7px;
+}
+.st2 {
+    background-color: red;
+    color: brown;
+    border-radius: 50%;
+    border: 1px  black dotted;
+}
+
+.st2:active {
+    color: white;
+    background-color: orange;
+    border-radius: 50%;
+    border: 1px blue dashed;
+}
+#d1 {
+    border-bottom: blue dotted;
+    border-top: red solid;
+    border-left: orange solid;
+    border-right: green dashed;
+    width: 400px;
+    height: 200px;
+}
+
+#d1:hover {
+    width: 300px;
+    height: 200px;
+}
+
+#d2 {
+    width: 400px;
+    height: 200px;
+    border: 5px solid;
+    border-radius: 30px;
+}
+
+#d3 {
+    width: 300px;
+    height: 80px;
+    background-color: #a6dbe6;
+    margin: 20px;
+    padding: 10px;
+}
+
+#d4 {
+    width: 300px;
+    height: 80px;
+    background-color: #94dfa0;
+    margin: 10px;
+    padding: 20px;
+}
+
+#d5 {
+    max-width: 200px;
+    padding: 20px;
+    background-color: lightcoral;
+}
+
+#d5:hover {
+    margin: 40px;
+}
+#d6 {
+    max-width: 200px;
+    max-height: 200px;
+    padding: 10px;
+    background-color: rgb(205, 227, 137);
+    border: 5px;
+}
+#d7 {
+    max-width: 200px;
+    max-height: 200px;
+    padding: 10px;
+    background-color: rgb(205, 227, 137);
+    border: 5px;
+}
+#d7:hover {
+    box-sizing: border-box;
+}
+#d8 {
+    background-color: rgb(57, 208, 57);
+    max-width: 400px;
+    height: 300px;
+}
+#d9 {
+    background-color: #a6dbe6;
+    max-width: 200px;
+    height: 200px;
+    margin: -280px auto auto 300px;
+}
