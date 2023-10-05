@@ -1,0 +1,98 @@
+button {
+    position: absolute;
+    right: 386px;
+    top: 69px;
+}
+#desc {
+    width: 300px;
+    font-size: 24px;
+    background-color: yellow;
+    position: absolute;
+    top: 466px;
+    left: 45px;
+    height: 49px;
+}
+.name:hover {
+    color: rgb(70, 174, 49);
+}
+.name {
+    text-decoration: underline;
+    float: left;
+    margin: 5px;
+    color: blue;
+}
+.name:active {
+    float: none;
+}
+
+.rect1 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: relative;
+    z-index: 10;
+    transform: rotate3d(30%);
+}
+
+.rect2 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+    z-index: 300;
+}
+.container {
+    background-color: rgb(188, 188, 188);
+    width: 400px;
+    height: 100px;
+    padding: 20px;
+}
+.block1 {
+   width: 350px;
+   height: 30px;
+   background-color: white;
+   margin: 10px;
+   border: 5px;
+}
+.block2 {
+  width: 100px;
+  height: 35px;
+  background-color: white;
+  display: inline;
+  margin: 10px;
+  border: 5px;
+}
+
+.blc1{
+    width: 350px;
+    height: 30px;
+    background-color: rgb(61, 173, 221);
+    margin: 10px;
+    border: 5px;
+    color: white;
+}
+.blc2 {
+    width: 100px;
+    height: 35px;
+    background-color: rgb(227, 82, 82);
+    display: inline;
+    margin: 10px;
+    border: 5px;
+    color: white;
+}
+.blc3 {
+    width: 100px;
+    height: 35px;
+    background-color: rgb(28, 132, 14);
+    display: inline;
+    border: 5px;
+    position: relative;
+    top: -52px;
+    right: 30px;
+}
+@media  screen and (width: 20px) {
+    p {
+        font-size: 32px;
+        color: blue;
+    }
+}
