@@ -1,0 +1,85 @@
+#halo {
+    border: 10px;
+    border-width: 20;
+    margin: 60px;
+}
+
+.container:hover {
+    background-image: url(movie.jpg);
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    background-image: url(f1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#movie:hover {
+    filter: grayscale(2000%);
+    filter: brightness(500%);
+}
+#movie {
+    width: 500px;
+    height: 500px;
+}
+#flood {
+    width: 250px;
+    border-radius: 120px;
+    height: 250px;
+    margin: 120px;
+}
+.flood-container {
+    width: 500px;
+    height: 500px;
+    background-color: gray;
+    
+}
+#shd {
+    box-shadow: 20px 20px 20px 0 black;
+}
+#shoot {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 80%;
+}
+#shoot1 {
+    border-style: dashed;
+    margin: 10px;
+}
+.line {
+    border-style: dashed;
+    width: 520px;
+}
+#shoot2:hover {
+    filter: none;
+}
+#shoot2 {
+    filter: grayscale(500%);
+}
+#shoot3 {
+    width: 500px;
+    height: 600px;
+    object-fit:cover;
+}
+#shoot4 {
+    filter: sepia(250%);
+}
+.dl {
+    background-repeat: repeat-x;
+    width: 500px;
+    height: 500px;
+    background-image: url(flood.jpg);
+    background-size: cover;
+}
+img {
+    width: 250px;
+    background-repeat: repeat-x;
+}
+.dl2 {
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    background-image: linear-gradient(to top, rgba(57, 63, 119, 0.5), rgba(44, 85, 60, 0)), url(halo.jpg);
+}

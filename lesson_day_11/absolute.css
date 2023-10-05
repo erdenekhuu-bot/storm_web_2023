@@ -1,0 +1,15 @@
+body {
+    width: 750px;
+    font-family: Arial, Verdana, sans-serif;
+    color: #665544;
+  }
+  h1 {
+    position: absolute;
+    top: 0px;
+    left: 500px;
+    width: 250px;
+  }
+  p {
+    width: 450px;
+  }
+  
