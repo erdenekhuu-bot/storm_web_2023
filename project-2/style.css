@@ -5,7 +5,7 @@ img {
 }
 html {
     padding: 50px;
-    background-color: rgb(174, 176, 179);
+    background-color: rgb(201, 203, 206);
 }
 .container1 { 
     padding: 10px;
@@ -25,13 +25,80 @@ html {
     top: 20px;
 }
 .line {
-    height: 800px;
-    border-left: 1px solid black;
-    position: fixed;
+    height: 116px;
+    border-left: 2px solid black;
+    position: absolute;
     left: 445px;
     display: flex;
+    flex-direction: column;
+    top: 10px;
 }
 #sign {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#let1 {
+    position: fixed;
+    left: 438px;
+    top: 129px;
+}
+
+#let2 {
+    position: fixed;
+    left: 438px;
+    top: 165px;
+}
+#let3 {
+    position: fixed;
+    left: 438px;
+    top: 199px;
+}
+#let4 {
+    position: fixed;
+    left: 436px;
+    top: 425px;
+}
+#let5 {
+    position: fixed;
+    left: 436px;
+    top: 655px;
+}
+#let6 {
+    position: fixed;
+    left: 436px;
+    top: 837px;
+}
+.line1{
+    height: 16px;
+    border-left: 2px solid black;
+    position: fixed;
+    left: 445px;
+    display: flex;
+    flex-direction: column;
+    top: 229px;
+}
+.line2{
+    height: 130px;
+    border-left: 2px solid black;
+    position: fixed;
+    left: 445px;
+    display: flex;
+    flex-direction: column;
+    top: 257px;
+}
+.line3{
+    height: 583px;
+    border-left: 2px solid black;
+    position: fixed;
+    left: 445px;
+    display: flex;
+    flex-direction: column;
+    top: 413px;
+}
+#stl {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 3px;
+}
+.cm {
+    color: rgb(36, 179, 127);
 }
 

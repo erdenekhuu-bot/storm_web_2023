@@ -1,0 +1,33 @@
+#page {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+#header {
+    background-color: #ccc;
+    padding: 20px;
+}
+#nav{
+    background-color: #ccc;
+    padding: 20px;
+    position: relative;
+}
+.nav-menu {
+    display: inline;
+    margin: 30px;
+}
+.article {
+    background-color: antiquewhite;
+    width: 300px;
+    height: 150px;
+}
+#sidebar {
+    background-color: #ccc;
+    padding-inline-start: 20px;
+    width: 200px;
+    height: 300px;
+    float: left;
+    margin-left: 30px;
+}
