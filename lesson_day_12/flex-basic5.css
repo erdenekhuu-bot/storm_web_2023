@@ -1,0 +1,16 @@
+.flex-item {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 10px;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-item:first-child{
+    order: 2;
+}
+.flex-item:last-child{
+    order: 1;
+}
