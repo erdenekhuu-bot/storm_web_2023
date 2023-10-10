@@ -1,0 +1,16 @@
+html {
+    background-color: gray;
+}
+#main {
+    width: 900px;
+    height: 900px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 20px;
+}
+#hd {
+    background-color: rgb(49, 73, 87);
+    height: 70px;
+    text-align: center;
+    justify-content: center;
+}

@@ -1,0 +1,46 @@
+html {
+    background-color: white;
+    padding: 50 auto 20 auto;
+    font-family: serif;
+}
+#main {
+    width: 820px;
+    height: 800px;
+    background-color: rgb(235, 237, 237);
+    display: flexbox;
+    flex-direction: row;  
+    margin: 0 auto;
+}
+#hd {
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 300;
+    color: white;
+    background-color: rgb(71, 70, 70);
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-size: 25px;
+}
+#img1,#img2 {
+    justify-content: space-around;
+    padding: 3px;
+}
+#ft {
+    font-family: serif;
+    color: white;
+    background-color: rgb(71, 70, 70);
+    height: 150px;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+}
+li {
+    display: inline-block;
+    padding-right: 40px;
+    text-transform: uppercase;
+}
+p {
+    font-size: 25px;
+}
