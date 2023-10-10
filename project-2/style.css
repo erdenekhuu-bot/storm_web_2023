@@ -29,7 +29,7 @@ img {
     height: 116px;
     border-left: 2px solid black;
     position: absolute;
-    left: 745px;
+    left: 407px;
     display: flex;
     flex-direction: column;
     top: 10px;
@@ -38,41 +38,41 @@ img {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #let1 {
-    position: fixed;
-    left: 438px;
+    position: absolute;
+    left: -7px;
     top: 129px;
 }
 
 #let2 {
-    position: fixed;
-    left: 438px;
+    position: absolute;
+    left: -7px;
     top: 165px;
 }
 #let3 {
-    position: fixed;
-    left: 438px;
+    position: absolute;
+    left: -7px;
     top: 199px;
 }
 #let4 {
-    position: fixed;
-    left: 436px;
+    position: absolute;
+    left: -7px;
     top: 425px;
 }
 #let5 {
-    position: fixed;
-    left: 436px;
+    position: absolute;
+    left: -7px;
     top: 655px;
 }
 #let6 {
-    position: fixed;
-    left: 436px;
+    position: absolute;
+    left: -7px;
     top: 837px;
 }
 .line1{
     height: 16px;
     border-left: 2px solid black;
     position: absolute;
-    left: 412px;
+    left: 407px;
     display: flex;
     flex-direction: column;
     top: 229px;
@@ -80,8 +80,8 @@ img {
 .line2{
     height: 130px;
     border-left: 2px solid black;
-    position: fixed;
-    left: 745px;
+    position: absolute;
+    left: 407px;
     display: flex;
     flex-direction: column;
     top: 257px;
@@ -89,8 +89,8 @@ img {
 .line3{
     height: 583px;
     border-left: 2px solid black;
-    position: fixed;
-    left: 745px;
+    position: absolute;
+    left: 407px;
     display: flex;
     flex-direction: column;
     top: 413px;
