@@ -3,14 +3,103 @@ html {
 }
 #main {
     width: 900px;
-    height: 900px;
+    height: 1300px;
     background-color: white;
     margin: 0 auto;
     padding: 20px;
 }
 #hd {
     background-color: rgb(49, 73, 87);
-    height: 70px;
+    height: 110px;
     text-align: center;
     justify-content: center;
+}
+#sp {
+    color: rgb(148, 193, 203);
+}
+li {
+    display: inline-block;
+    padding-right: 20px;
+    color: rgb(213, 212, 212);
+    font-size: 14px;
+}
+#tit {
+    color: white;
+    
+}
+.line {
+    margin-top: 60px;
+}
+.col {
+    color: rgb(117, 115, 115);
+}
+.im {
+    border-radius: 60px;
+    width: 50px;
+    position: relative;
+    float: right;
+    margin-top: 40px;
+}
+.let {
+    color: rgb(59, 224, 224);
+}
+#block1 {
+    background-color: green;
+    color: white;
+    width: 50px;
+    text-align: center;
+    height: 20px;
+    display: inline-block;
+}
+#block2 {
+    background-color: blue;
+    color: white;
+    width: 50px;
+    text-align: center;
+    height: 20px;
+    display: inline-block;
+}
+#block3 {
+    background-color: red;
+    color: white;
+    width: 75px;
+    text-align: center;
+    height: 20px;
+    display: inline-block;
+}
+#block4 {
+    background-color: rgb(69, 63, 63);
+    color: white;
+    width: 100px;
+    text-align: center;
+    height: 20px;
+    display: inline-block;
+}
+.pic {
+    background-size: cover;
+    width: 445px;
+    height: 350px;
+}
+#ft {
+    background-color: rgb(71, 70, 70); 
+    height: 110px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    display: flex;
+}
+#css {
+    position: relative;
+    color: white;
+    bottom: 30px;
+    left: 10px;
+    font-size: 20px;
+}
+#js {
+    position: relative;
+    color: white;
+    bottom: 30px;
+    left: 330px;
+    font-size: 20px;
 }
