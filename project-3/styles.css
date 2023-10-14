@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    height: 70px;
+    padding: 0 89.52px 0 89.49px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Roboto;
+    flex-shrink: 0;
+    background: #603601;
+    color: white;
+}
+#icon {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px; /* 100% */
+    letter-spacing: 2px;
+}
+select {
+    background: #603601;
+    border: 5px;
+    color: #FFF;
+}
+.icon_container {
+    background: url(logo2.jpeg);
+    height: 100px;
+}
+.content {
+    height: 270px;
+}
+.box_container {
+    
+}

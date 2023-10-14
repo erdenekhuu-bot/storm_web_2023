@@ -1,0 +1,233 @@
+html {
+    background-color: gray;
+}
+.content {
+    width: 1000px;
+    height: 4000px;
+    background: rgb(233, 232, 232);
+    margin: 0 auto;
+    position: relative;
+}
+.header {
+    width: 1000px;
+    height: 50px;
+    background-color: #603601;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+}
+select {
+    background-color: #603601;
+    border: white;
+    color: white;
+}
+.image {
+   position: absolute;
+}
+#subdir {
+    position: relative;
+    display: inline;
+}
+
+#img {
+    width: 30px;
+    height: 30px;
+}
+.txt {
+    text-align: center;
+    position: absolute;
+    top: 100px;
+    color: white;
+    width: 1000px;
+}
+#tx {
+    font-size: 28px;
+}
+#logo2 {
+    position: absolute;
+    width: 1000px;
+    height: 200px;
+    overflow: hidden;
+    background-size: cover;
+    justify-content: center;
+    background-position: top;
+    display: block;
+}
+.layer1 {
+    display: block;
+    position: relative;
+    top: 200px;
+    text-align: center;
+    width: 1000px;
+}
+hr {
+    width: 60px;
+    background-color: #603601;
+}
+td {
+    position: absolute;
+    display: block;
+    top: 50px;
+}
+.txd {
+    width: 400px;
+    right: 10px;
+}
+.layer2 {
+    display: block;
+    position: relative;
+    text-align: center;
+    width: 1000px;
+    top: 480px;
+}
+.box {
+    width: 1000px;
+    background-size: cover;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#row1, #row2 {
+    background-size: cover;
+    display: flex;
+}
+.subbox {
+    width: 200px;
+    display: inline-block;
+    position: relative;
+    left: 80px;
+    margin: 3px;
+    padding: 3px;
+    background-color: white;
+    
+}
+.layer3 {
+    display: block;
+    position: relative;
+    top: 460px;
+    text-align: center;
+    width: 1000px;
+}
+.subtxt {
+    width: 250px;
+    height: 80px;
+    background-color: white;
+    display: inline-block;
+    margin: 3px;
+    padding: 3px;
+}
+.layer4 {
+    display: block;
+    position: relative;
+    top: 480px;
+    text-align: center;
+    width: 1000px;
+}
+.subbox1 {
+    width: 140px;
+    display: inline-block;
+    margin: 3px;
+    padding: 3px;
+    background-color: white;
+}
+.layer5 {
+    display: block;
+    position: relative;
+    top: 500px;
+    text-align: center;
+    width: 1000px;
+}
+.subbox2 {
+    width: 220px;
+    display: inline-block;
+    margin: 3px;
+    padding: 3px;
+    background-color: white;
+}
+.layer6 {
+    display: block;
+    position: relative;
+    top: 960px;
+    text-align: center;
+    width: 1000px;
+}
+.subbox3 {
+    width: 300px;
+    display: inline-block;
+    margin: 3px;
+    padding: 3px;
+    background-color: white;
+}
+.layer7 {
+    display: block;
+    position: relative;
+    top: 980px;
+    text-align: center;
+    width: 1000px;
+}
+.subbox4 {
+    width: 400px;
+    height: 300px;
+    display: inline-block;
+    margin: 3px;
+    padding: 3px;
+}
+#b1 {
+    color: white;
+    background-color: #c79a63;
+    border: none;
+    width: 120px;
+    height: 30px;
+}
+#b2 {
+    color: white;
+    background-color:#603601;
+    border: none;
+    width: 150px;
+    height: 30px;
+}
+#b3 {
+    color: white;
+    background-color:#603601;
+    border: none;
+    width: 120px;
+    height: 30px;
+}
+.b4 {
+    color: white;
+    background-color:#603601;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.subbox0 {
+    width: 800px;
+    background-color: aqua;
+    display: inline-block;
+    align-items: center;
+}
+#logo3 {
+    position: absolute;
+    left: 30px;
+    display: inline-block;
+}
+#tx1 {
+    position: absolute;
+    right: 250px;
+}
+.subdir {
+    position: absolute;
+    right: 150px;
+    width: 400px;
+    text-align: left;
+}
+.spc {
+    display: flex;
+    justify-content: space-around;
+}
+.sc {
+    color: #c79a63;
+}
