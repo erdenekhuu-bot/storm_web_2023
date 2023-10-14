@@ -78,7 +78,7 @@ td {
     position: relative;
     text-align: center;
     width: 1000px;
-    top: 460px;
+    top: 480px;
 }
 .box {
     width: 1000px;
@@ -89,15 +89,18 @@ td {
 }
 
 #row1, #row2 {
-    flex-direction: row;
     background-size: cover;
+    display: flex;
 }
 .subbox {
     width: 200px;
     display: inline-block;
+    position: relative;
+    left: 80px;
     margin: 3px;
     padding: 3px;
     background-color: white;
+    
 }
 .layer3 {
     display: block;
@@ -191,10 +194,20 @@ td {
     width: 120px;
     height: 30px;
 }
+.b4 {
+    color: white;
+    background-color:#603601;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+}
+
 .subbox0 {
     width: 800px;
     background-color: aqua;
     display: inline-block;
+    align-items: center;
 }
 #logo3 {
     position: absolute;
@@ -210,4 +223,11 @@ td {
     right: 150px;
     width: 400px;
     text-align: left;
+}
+.spc {
+    display: flex;
+    justify-content: space-around;
+}
+.sc {
+    color: #c79a63;
 }
