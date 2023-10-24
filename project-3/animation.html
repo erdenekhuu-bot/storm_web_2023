@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gift box</title>
+</head>
+<body>
+    <div class="background">
+        <div class="head">
+            
+            <div class="linex"></div>
+            <div class="liney"></div>
+        </div>
+        <div class="body">
+            <span id="txt">
+                 20% off promo <br>
+                <h2>ILOVEYOU</h2>
+            </span>
+            <div class="linexx"></div>
+            <div class="lineyy"></div>
+        </div>
+    </div>
+</body>
+</html>
+<style>
+    html {
+    background-color: black;
+}
+.background {
+    background-color: gray;
+    position: relative;
+    width: 700px;
+    height: 500px;
+    margin: 0 auto;
+    top: 30px;
+}
+.head:hover{
+     transition: 1s;
+     transform: rotate(20deg) translate(20px, -200%); 
+    /* transform: translateY(40%); */
+}
+.head {
+    position: absolute;
+    width: 400px;
+    height: 60px;
+    background-color: red;
+    display: flex;
+    top: 95px;
+    right: 150px;
+    cursor: pointer;
+}
+#txt {
+    text-align: center;
+    display: block;
+    width: 100px;
+    position: absolute;
+    left: 140px;
+}
+
+.linex {
+    position: absolute;
+    background-color: yellow;
+    width: 40px;
+    height: 60px;
+    right: 180px;
+    display: flex;
+}
+
+.linexx {
+    position: absolute;
+    background-color: yellow;
+    width: 40px;
+    height: 200px;
+    right: 180px;
+    display: flex;
+}
+.lineyy {
+    position: absolute;
+    background-color: yellow;
+    width: 400px;
+    height: 40px;
+    display: flex;
+    top: 70px;
+}
+
+.body {
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    background-color: red;
+    display: flex;
+    right: 150px;
+    top: 160px;
+    cursor: pointer;
+}
+
+</style>
