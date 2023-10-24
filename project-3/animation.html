@@ -7,18 +7,21 @@
 </head>
 <body>
     <div class="background">
-        <div class="head">
-            
-            <div class="linex"></div>
-            <div class="liney"></div>
-        </div>
-        <div class="body">
-            <span id="txt">
-                 20% off promo <br>
-                <h2>ILOVEYOU</h2>
-            </span>
-            <div class="linexx"></div>
-            <div class="lineyy"></div>
+        <div class="container">
+            <div class="head">
+                <span id="sign"></span>
+                <span id="txt">
+                    20% off promo <br>
+                   <h2>ILOVEYOU</h2>
+               </span>
+                <div class="linex"></div>
+                <div class="liney"></div>
+            </div>
+            <div class="body">
+                <span id="sign"></span>
+                <div class="linexx"></div>
+                <div class="lineyy"></div>
+            </div>
         </div>
     </div>
 </body>
@@ -27,18 +30,28 @@
     html {
     background-color: black;
 }
+#sign {
+    background: radial-gradient(white 15%, trasparent 15.1%);
+    background-position: 0 0, 25px 25px;
+}
 .background {
-    background-color: gray;
+    background-color: rgb(27, 27, 27);
     position: relative;
     width: 700px;
     height: 500px;
     margin: 0 auto;
-    top: 30px;
+    top: 100px;
 }
-.head:hover{
+
+.head:hover {
      transition: 1s;
      transform: rotate(20deg) translate(20px, -200%); 
-    /* transform: translateY(40%); */
+     
+}
+.head:hover  span {
+          transition: 1s;
+          color: white;
+          transform: rotate(-20deg);
 }
 .head {
     position: absolute;
@@ -49,15 +62,22 @@
     top: 95px;
     right: 150px;
     cursor: pointer;
+    background-size: cover;
+    background: radial-gradient(white 15%, trasparent 15.1%), radial-gradient(white 15%, transparent 15.1%), rgb(240, 58, 58);
+    background-position: 0 0, 25px 25px;
 }
+
 #txt {
     text-align: center;
     display: block;
-    width: 100px;
     position: absolute;
     left: 140px;
+    top: 70px;
+    font-family: 'Courier New', Courier, monospace;
 }
-
+h3 {
+    font-family: sans-serif;
+}
 .linex {
     position: absolute;
     background-color: yellow;
