@@ -1,0 +1,10 @@
+#page {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    border: 2px solid darkcyan;
+    text-align: center;
+}
+#page h1 {
+    background-color: antiquewhite;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<style>
+    	    #textbox{
+                    margin: 10px;
+                    border: 1px solid black;
+                    height: 200px;
+                }
+            #keyboard{
+                    text-align: center;
+                }
+        </style>
+	</head>
+    <body>
+        <div id = 'keyboard'>
+        </div>
+    
+        
+        <div id = 'textbox'>
+        </div>
+    </body>
+    
+    <script>
+        var div=document.getElementById('keyboard');
+        var text=document.getElementById('textbox');
+        var alpha = ['q','w','e','r','t','y','u','i','o','p','a','s',
+            'd','f','g','h','j','k','l',';','\'',
+            'z','x','c','v','b','n','m', ',','.'];
+        
+        function makeKeyBoard(){
+            for(let i=0; i<alpha.length; i++){
+                makeButton(alpha[i]);
+            }
+        }
+        function makeButton(arg){
+            var btn=document.createElement('button');
+            btn.innerHTML=arg;
+            console.log(btn.innerHTML);
+            div.appendChild(btn);
+            btn.addEventListener('click',function(){
+                makeText(btn.innerHTML)
+            });
+        }
+        
+        function makeText(arg){
+            text.innerHTML+=arg;
+        }
+        makeKeyBoard();
+        
+            //copy makeButton and makeText functions from previous exercise
+            
+            //create makeKeyboard function
+    </script>
+</html>
