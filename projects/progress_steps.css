@@ -1,0 +1,82 @@
+html {
+    background-color: gray;
+}
+#background {
+    background-color: white;
+    width: 800px;
+    height: 300px;
+    margin: 200px auto;
+    position: relative
+}
+.num {
+    position: relative;
+    top: 30px;
+    font-size: 32px;
+    width: 30px;
+    height: 30px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 70px;
+    border: 5px solid;
+    border-color: rgb(232, 231, 231);
+    display: inline-block;
+    margin-inline-start: 80px;
+}
+#case1 {
+    border-color: rgb(57, 145, 227);
+}
+button:active{
+    width: 170px;
+    height: 40px;
+}
+button {
+    background-color: rgb(57, 145, 227);
+    color: white;
+    width: 180px;
+    height: 50px;
+    font-size: 24px;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    top: 100px;
+    left: 200px;
+    margin-inline: 10px;
+    cursor: pointer;
+}
+#line1 {
+    width: 84px;
+    height: 5px;
+    background-color: rgb(232, 231, 231);
+    position: absolute;
+    border: none;
+    top: 77px;
+    left: 180px;
+    transition:  0.1s ease-in; 
+}
+#line2 {
+    width: 90px;
+    height: 5px;
+    background-color: rgb(232, 231, 231);
+    position: absolute;
+    border: none;
+    top: 77px;
+    left: 360px;
+}
+#line3 {
+    width: 90px;
+    height: 5px;
+    background-color: rgb(232, 231, 231);
+    position: absolute;
+    border: none;
+    top: 77px;
+    right: 350px;
+}
+#line4 {
+    width: 90px;
+    height: 5px;
+    background-color: rgb(232, 231, 231);
+    position: absolute;
+    border: none;
+    top: 77px;
+    right: 165px;
+}
