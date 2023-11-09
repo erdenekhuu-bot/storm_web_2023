@@ -3,103 +3,99 @@ html {
 }
 #main {
     width: 900px;
-    height: 1300px;
+    height: 1100px;
     background-color: white;
     margin: 0 auto;
     padding: 20px;
+    position: relative;
 }
 #hd {
     background-color: rgb(49, 73, 87);
     height: 110px;
     text-align: center;
     justify-content: center;
-}
-#sp {
-    color: rgb(148, 193, 203);
+    color: white;
 }
 li {
-    display: inline-block;
+    display: inline;
     padding-right: 20px;
-    color: rgb(213, 212, 212);
-    font-size: 14px;
 }
-#tit {
-    color: white;
-    
-}
-.line {
-    margin-top: 60px;
-}
-.col {
-    color: rgb(117, 115, 115);
-}
-.im {
-    border-radius: 60px;
-    width: 50px;
+.pad1 {
+    height: 190px;
+    margin-top: 30px;
+    text-align: left;
     position: relative;
-    float: right;
-    margin-top: 40px;
+    color: black;
 }
-.let {
-    color: rgb(59, 224, 224);
+.image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: absolute;
+    right: 10px;
+    top: 38px;
 }
-#block1 {
+image {
+    width: 300px;
+}
+#ft { 
+        background-color: rgb(76, 77, 78);
+        height: 100px;
+        text-align: center;
+        color: white;
+        position: absolute;
+        width: 880px;
+        bottom: 100px;
+}
+figcaption {
+    position: absolute;
+    bottom: -120px;
+    color: white;
+}
+#subft {
+    position: absolute;
+    top: 33px;
+    left: 355px;
+    font-size: 32px;
+}
+.st2 {
+    color: rgb(109, 106, 106);
+}
+.od {
+    color: aqua;
+}
+#b1 {
+    display: inline-block;
+    width: 50px;
     background-color: green;
-    color: white;
-    width: 50px;
     text-align: center;
-    height: 20px;
-    display: inline-block;
+    color: white;
 }
-#block2 {
+#b2 {
+    display: inline-block;
+    width: 60px;
     background-color: blue;
-    color: white;
-    width: 50px;
     text-align: center;
-    height: 20px;
-    display: inline-block;
+    color: white;
 }
-#block3 {
+#b3 {
+    display: inline-block;
+    width: 80px;
     background-color: red;
-    color: white;
-    width: 75px;
     text-align: center;
-    height: 20px;
-    display: inline-block;
-}
-#block4 {
-    background-color: rgb(69, 63, 63);
     color: white;
+}
+#b4 {
+    display: inline-block;
     width: 100px;
+    background-color: gray;
     text-align: center;
-    height: 20px;
-    display: inline-block;
-}
-.pic {
-    background-size: cover;
-    width: 445px;
-    height: 350px;
-}
-#ft {
-    background-color: rgb(71, 70, 70); 
-    height: 110px;
-    align-items: center;
-    justify-content: center;
     color: white;
-    font-size: 24px;
-    display: flex;
 }
-#css {
-    position: relative;
-    color: white;
-    bottom: 30px;
-    left: 10px;
-    font-size: 20px;
+.tx {
+    font-family: sans-serif;
+    color: rgb(107, 167, 164);
 }
-#js {
-    position: relative;
-    color: white;
-    bottom: 30px;
-    left: 330px;
-    font-size: 20px;
+b {
+    font-size: 28px;
 }

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <button class="block">1</button>
+        <div id="line"></div>
+        <button class="block">2</button>
+        <button class="block">3</button>
+        <button class="block">4</button>
+        <section>
+            <button id="btn1">Prev</button>
+            <button id="btn2">Next</button>
+        </section>
+    </main>
+    <script>
+        var block=document.getElementsByClassName('block')
+        var line=document.getElementById('line')
+
+        var count=0
+        var state
+        var prev=document.getElementById('btn1')
+        var next=document.getElementById('btn2')
+        
+        next.addEventListener('click',f1)
+        function f1(){
+            if(count<line.offsetWidth/3){
+               line.style.backgroundColor=count+'px'
+               line.style.backgroundColor='blue'
+             count+=3
+            }
+        }
+    </script>
+</body>
+</html>

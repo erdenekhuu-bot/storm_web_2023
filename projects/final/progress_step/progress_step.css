@@ -1,0 +1,106 @@
+html {
+    background-color: rgb(199, 198, 196);
+}
+main {
+    position: relative;
+    height: 300px;
+    width: 800px;
+    margin: 100px auto;
+    background-color: white;
+    overflow: hidden;
+    justify-content: space-around;
+    display: flex;
+}
+.block {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    font-size: 28px;
+    border-color: rgb(197, 196, 196);
+    border-width: 8px;
+    border-style: solid;
+    border-radius: 60px;
+    margin: 30px;
+    padding: 30px;
+    color: rgb(150, 150, 150);
+}
+.block:after {
+    z-index: 1;
+}
+/* #line1 {
+    position: absolute;
+    width: 106px;
+    height: 10px;
+    top: 70px;
+    left: 147px;
+    background-color: rgb(197, 196, 196);
+}
+#line2 {
+    position: absolute;
+    width: 106px;
+    height: 10px;
+    top: 70px;
+    left: 347px;
+    background-color: rgb(197, 196, 196);
+}
+#line3 {
+    position: absolute;
+    width: 106px;
+    height: 10px;
+    top: 70px;
+    right: 147px;
+    background-color: rgb(197, 196, 196);
+} */
+.line {
+    position: absolute;
+    width: 510px;
+    height: 10px;
+    top: 70px;
+    background-color: rgb(197, 196, 196);
+}
+
+section {
+    display: flex;
+    padding: 10px;
+    height: 80px;
+    width: 350px;
+    position: absolute;
+    bottom: 20px;
+    border-spacing: 10px;
+    justify-content: center;
+    padding: 10px;
+}
+#btn1 {
+    width: 150px;
+    height: 60px;
+    position: relative;
+    left: -5px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(68, 189, 236);
+    font-size: 28px;
+    color: white;
+}
+#btn1:active{
+    width: 120px;
+    height: 50px;
+}
+
+#btn2 {
+    width: 150px;
+    height: 60px;
+    position: relative;
+    right: -5px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(68, 189, 236);
+    font-size: 28px;
+    color: white;
+}
+#btn2:active{
+    width: 120px;
+    height: 50px;
+}
+@keyframes anime {
+    
+}
