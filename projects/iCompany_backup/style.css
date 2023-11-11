@@ -300,3 +300,35 @@ input {
     position: relative;
     margin: 0 auto;
 }
+#popup:hover {
+     background-color: wheat;
+}
+.formSub {
+    margin: 100px auto;
+    height: 408px;
+    width: 350px;
+    background-color: #013560;
+    border-radius: 8px;
+    color: white;
+    font-style: bold;
+    position: relative;
+}
+.bod {
+    margin-top: 20px;
+    color: black;
+    background-color: aliceblue;
+    height: 330px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 20px;
+}
+.handle {
+    border: none;
+    width: 310px;
+    height: 30px;
+}
+.subTitle {
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
