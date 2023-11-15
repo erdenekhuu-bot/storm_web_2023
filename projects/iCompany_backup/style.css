@@ -3,7 +3,8 @@ html {
     font-size: 12px;
 }
 body {
-    width: 1000px;
+    max-width: 1000px;
+    min-width: 500px;
     height: 2745px;
     background-color: white;
     margin: 0 auto;
@@ -11,10 +12,13 @@ body {
 
 #sector1 {
     background-color: #013560;
-    width: 1000px;
-    height: 40px;
+    max-width: 1000px;
+    min-width: 500px;
+    min-height: 40px;
+    max-height: 80px;
     position: relative;
     display: flex;
+    flex-wrap: wrap;
     justify-content:space-around;
     font-size: 20px;
     align-items: center;
@@ -39,10 +43,13 @@ select {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 1000px;
-    height: 270px;
+    max-width: 1000px;
+    min-width: 500px;
+    min-height: 270px;
+    max-height: 540px;
     position: relative;
     display: flex;
+    flex-wrap: wrap;
     justify-content:space-around;
     color: white;
     /* filter:brightness(60%) */
@@ -67,10 +74,12 @@ select {
     margin: 5px;
 }
 #sector3 {
-    width: 1000px;
+    max-width: 1000px;
+    min-width: 500px;
     height: 350px;
     position: relative;
     display: flex;
+    flex-wrap: wrap;
     color: white;
     margin: 0 auto;
     padding: 5px;
@@ -85,17 +94,19 @@ select {
     box-shadow: 2px 2px 2px rgb(163, 163, 163);
 }
 #sector4 {
-    width: 1000px;
-    height: 350px;
+    max-width: 1000px;
+    min-width: 500px;
+    min-height: 350px;
+    max-height: 480px;
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    color: white;
     margin: 0 auto;
     color: black;
 }
 #sector5 {
-    width: 1000px;
+    max-width: 1000px;
+    min-width: 500px;
     height: 350px;
     position: relative;
     display: flex;
@@ -104,7 +115,8 @@ select {
     color: black;
 }
 #sector6 {
-    width: 1000px;
+    max-width: 1000px;
+    min-width: 500px;
     height: 350px;
     position: relative;
     display: flex;
@@ -113,7 +125,8 @@ select {
     color: black;
 }
 #sector7 {
-    width: 1000px;
+    max-width: 1000px;
+    min-width: 500px;
     height: 350px;
     position: relative;
     display: flex;
@@ -122,7 +135,8 @@ select {
     color: black;
 }
 #sector8 {
-    width: 980px;
+    max-width: 980px;
+    min-width: 500px;
     height: 150px;
     position: relative;
     display: flex;
@@ -133,7 +147,8 @@ select {
     justify-content: space-around;
 }
 #sector9 {
-    width: 975px;
+    max-width: 975px;
+    min-width: 500px;
     height: 245px;
     position: relative;
     display: flex;
@@ -176,11 +191,12 @@ select {
     /* left: 412px; */
 }
 .divRight {
+    background-color: aqua;
     position: relative;
     display: block;
-    right: -80px;
+    right: -100px;
     height: 300px;
-    width: 425px;
+    width: 350px;
     padding: 25px;
     box-shadow: 2px 2px 2px rgb(163, 163, 163);
 }
@@ -305,14 +321,15 @@ input {
      background-color: wheat;
 }
 .formSub {
-    margin: 100px auto;
-    height: 408px;
+    height: 470px;
     width: 350px;
     background-color: #013560;
     border-radius: 8px;
     color: white;
     font-style: bold;
     position: relative;
+    left: -23px;
+    top: -23px;
 }
 .bod {
     margin-top: 20px;
@@ -330,6 +347,15 @@ input {
 }
 .subTitle {
     position: relative;
-    left: 20px;
-    top: 10px;
+    /* left: 20px;
+    top: 10px; */
+}
+dialog {
+    width: 305px;
+    height: 408px;
+    position: absolute;
+    border-radius: 8px;
+    z-index: 1;
+    top: 60px;
+    left: 50px;
 }

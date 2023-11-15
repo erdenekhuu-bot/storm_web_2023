@@ -5,7 +5,8 @@ html {
 }
 
 body {
-    width: 1000px;
+    max-width: 1000px;
+    min-width: 500px;
     height: 3000px;
     background-color: rgb(244, 242, 242);
     margin: 0 auto;
@@ -16,6 +17,7 @@ body {
     height: 50px;
     position: relative;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     
@@ -23,6 +25,8 @@ body {
 #sector2 {
     background-image: url(img/biz-header.jpg);
     height: 300px;
+    display: flex;
+    flex-wrap: wrap;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -45,11 +49,13 @@ body {
     background-size: cover;
     background-position: center;
     position: relative;
-    
+    display: flex;
+    flex-wrap: wrap;
 }
 #sector5 {
     height: 350px;
     display: flex;
+    flex-wrap: wrap;
     background-size: cover;
     background-position: center;
     position: relative;
