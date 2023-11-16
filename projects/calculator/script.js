@@ -6,11 +6,17 @@ function backSpace(){
     label.innerHTML=[label.innerHTML.length-1]
 }
 function num(arg){
-    var event=label.innerHTML+=arg
+    label.innerHTML+=arg
 }
 function pass(arg){
     label.innerHTML+=arg+'0'
 }
+
+// function solve(arg){
+//       label.innerHTML=eval(arg)
+// }
+
+
 function result(){
    for(let i=0; i<label.innerHTML.length; i++){
            switch(label.innerHTML[i]){
