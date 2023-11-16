@@ -1,0 +1,42 @@
+.content {
+    display: flex;
+}
+#img1 {
+      width: 800px;
+      height: 650px;
+      position: relative;
+      z-index: -1;
+} 
+#img2 {
+    width: 800px;
+    height: 650px;
+    position: relative;
+}
+#img1:hover {
+      transition: 1s;
+      animation: move;
+      animation-duration: 1s;
+      animation-timing-function: 1s;
+}
+#img2:hover {
+     transition: 1s;
+     animation: move;
+     animation-duration: 1s;
+     animation-timing-function: 1s;
+}
+@keyframes move{
+    from{
+        width: 800px;
+    }
+    to{
+        width: 900px;
+        z-index: 1;
+    }
+}
+/* @keyframes zoom{
+    from{
+        width: 800px;
+        z-index: 10;
+    }
+    to{width: 1500px;}
+} */
