@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>iCompany</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header">
+<div class="header">
         <section id="sector1">
             <span id="sp1">
-                <img src="img/logo_camera.png" alt="" srcset="" width="30px">
+                <img src="img/logo_camera.png" alt="" srcset="" width="25px">
                 <b id="ic">iCompany</b>
             </span>
             <span style="font-family: serif; font-size: 20px;">
@@ -20,23 +20,31 @@
                 Contact
             </span>
             <span>
-                <img src="img/logo_human.png" id="popup" srcset="" width="30px" height="30px">
+                <img src="img/logo_human.png" id="popup" srcset="" width="25px" onclick="f1()">
             </span>
             <!-- popup -->
-            <!-- <form class="formSub"> <b class="subTitle">Sign Up</b>
-                <div class="bod"> Register with us to get offers, support and more <p></p>
+            <dialog id="hide">
+                <form class="formSub"> <b class="subTitle">Sign Up</b>
+                  <div class="bod"> Register with us to get offers, support and more <p></p>
                   <b>Name</b> <br>
                   <input type="text" class="handle" placeholder="Enter Name" required> <p></p>
-                  <b>Email</b> <br>
-                  <input type="text" class="handle" placeholder="Enter Email" required> <p></p>
-                  <b>Password</b> <br>
-                  <input type="password" class="handle" placeholder="Enter Password" required> <p></p>
+                     <b>Email</b> <br>
+                     <input type="text" class="handle" placeholder="Enter Email" required> <p></p>
+                     <b>Password</b> <br>
+                     <input type="password" class="handle" placeholder="Enter Password" required> <p></p>
                   <b>Confirm Password</b> <br>
-                  <input type="password" class="handle" placeholder="Confirm Password"> <p></p>
-                  <button>Submit</button>
-                </div>
-          </form> -->
+                     <input type="password" class="handle" placeholder="Confirm Password"> <p></p>
+                     <button>Submit</button>
+                 </div>
+                </form>
+            </dialog>
             <!-- popup -->
+            <script>
+                const popup=document.getElementById('hide')
+                function f1(){
+                    popup.show();
+                }
+            </script>
         </section>
         <section id="sector2">
            <div class="container">
@@ -57,7 +65,7 @@
             <div class="line"></div>
         </div>
         <section id="sector4">
-            <img src="img/biz-1.jpg" alt="" srcset="" width="400px" style="position: relative; left: 55px; box-shadow: 2px 2px 2px rgb(163, 163, 163);">
+            <img src="img/biz-1.jpg" alt="" srcset="" width="400px" height="350px" style="position: relative; left: 100px; box-shadow: 2px 2px 2px rgb(163, 163, 163);">
             <div class="divRight">
                 <b>Brand Communication and Brand</b> <br>
                 <b style="font-weight: 800;">Promotion Tools</b> <p></p>
@@ -178,13 +186,13 @@
             </div>
         </section>
         <section id="sector7">
-            <form action="">
+            <form action="server.php" method="post">
                 <b style="font-size: 20px; font-family: sans-serif;">Get in touch</b> <p></p>
-                <input type="text" name="" id="" placeholder="name"> <br>
-                <input type="text" name="" id="" placeholder="email"> <br>
-                <input type="text" name="" id="" placeholder="subject"> <p></p>
-                <textarea name="" id="" cols="51" rows="12" placeholder="message" style="border-top: none; border-left: none; border-right: none;"></textarea>
-                <button class="face" style="position: relative; left: -160px;">submit</button>
+                <input type="text" name="name" placeholder="name" required> <br>
+                <input type="text" name="email" placeholder="email" required> <br>
+                <input type="text" name="subject" placeholder="subject" required> <p></p>
+                <textarea name="" id="" cols="55" rows="12" placeholder="message" style="border-top: none; border-left: none; border-right: none;"></textarea>
+                <button  type="submit" class="face" name="submit" style="position: relative; left: -160px;">submit</button>       
             </form>
             <div class="map"></div>
         </section>
@@ -258,7 +266,5 @@
             <span id="final">Developed by <b>iCode</b> | &copy; 2023 iCompany | All rights reserved.</span>
         </section>
     </div>
-    
-    <script src="script.js"></script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-function Maint(){
+function Main(){
     return (
         <main>
         <section id="home">

@@ -191,7 +191,6 @@ select {
     /* left: 412px; */
 }
 .divRight {
-    background-color: aqua;
     position: relative;
     display: block;
     right: -100px;
