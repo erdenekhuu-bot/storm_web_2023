@@ -1,0 +1,34 @@
+.box {
+    background-color: plum;
+    width: 400px;
+    height: 200px;
+    margin: 30px auto;
+    position: relative;
+    padding: 10px;
+}
+input:active {
+    width: 380px;
+    height: 60px;
+    position: absolute;
+}
+input {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 200px;
+}
+#click {
+      height: 60px;
+      width: 60px;
+      position: absolute;
+      right: 156px;
+      top: 13px;
+}
+@keyframes move {
+     to {
+        width: 380px;
+     }
+     from {
+        width: 60px;
+     }
+}

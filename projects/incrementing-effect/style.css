@@ -1,0 +1,16 @@
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(129, 46, 129);
+    font-size: 28px;
+    color: white;
+    padding: 5px;
+    margin: 40px auto;
+    text-align: center;
+}
+#number {
+    font-size: 64px;
+}
+label {
+    transition: 1s;
+}

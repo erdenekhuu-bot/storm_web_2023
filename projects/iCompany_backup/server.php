@@ -35,16 +35,9 @@
         left: 20px;
         top: 10px;
     }
-    #dia {
-        width: 350px;
-        height: 408px;
-        position: relative;
-        background-color: aqua;
-        border-radius: 8px;
-    }
 </style>
 <body>
-<div id="dia">
+ <!-- <div class="hidden">
     <form class="formSub"> <b class="subTitle">Sign Up</b>
           <div class="bod"> Register with us to get offers, support and more <p></p>
             <b>Name</b> <br>
@@ -58,7 +51,11 @@
             <button>Submit</button>
           </div>
     </form>
-</div>
+ </div> -->
+   <?php 
 
+        $connector=mysqli_connect('localhost','admin','admin','icompany');
+        
+   ?>
 </body>
 </html>
