@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gift box</title>
+</head>
+<body>
+    <div class="background">
+        <div class="container">
+            <div class="head">
+                <span id="sign"></span>
+                <span id="txt">
+                    20% off promo <br>
+                   <h2>ILOVEYOU</h2>
+               </span>
+                <div class="linex"></div>
+                <div class="liney"></div>
+            </div>
+            <div class="body">
+                <span id="sign"></span>
+                <div class="linexx"></div>
+                <div class="lineyy"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<style>
+    html {
+    background-color: black;
+}
+#sign {
+    background: radial-gradient(white 15%, trasparent 15.1%);
+    background-position: 0 0, 25px 25px;
+}
+.background {
+    background-color: rgb(27, 27, 27);
+    position: relative;
+    width: 700px;
+    height: 500px;
+    margin: 0 auto;
+    top: 100px;
+}
+
+.head:hover {
+     transition: 1s;
+     transform: rotate(20deg) translate(20px, -200%); 
+     
+}
+.head:hover  span {
+          transition: 1s;
+          color: white;
+          transform: rotate(-20deg);
+}
+.head {
+    position: absolute;
+    width: 400px;
+    height: 60px;
+    background-color: red;
+    display: flex;
+    top: 95px;
+    right: 150px;
+    cursor: pointer;
+    background-size: cover;
+    background: radial-gradient(white 15%, trasparent 15.1%), radial-gradient(white 15%, transparent 15.1%), rgb(240, 58, 58);
+    background-position: 0 0, 25px 25px;
+}
+
+#txt {
+    text-align: center;
+    display: block;
+    position: absolute;
+    left: 140px;
+    top: 70px;
+    font-family: 'Courier New', Courier, monospace;
+}
+h3 {
+    font-family: sans-serif;
+}
+.linex {
+    position: absolute;
+    background-color: yellow;
+    width: 40px;
+    height: 60px;
+    right: 180px;
+    display: flex;
+}
+
+.linexx {
+    position: absolute;
+    background-color: yellow;
+    width: 40px;
+    height: 200px;
+    right: 180px;
+    display: flex;
+}
+.lineyy {
+    position: absolute;
+    background-color: yellow;
+    width: 400px;
+    height: 40px;
+    display: flex;
+    top: 70px;
+}
+
+.body {
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    background-color: red;
+    display: flex;
+    right: 150px;
+    top: 160px;
+    cursor: pointer;
+}
+
+</style>
