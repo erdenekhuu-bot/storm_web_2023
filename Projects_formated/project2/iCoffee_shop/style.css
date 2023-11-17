@@ -1,0 +1,55 @@
+header {
+    display: flex;
+    max-width: 1790px;
+    min-width: 616.25px;
+    max-height: 70px;
+    min-height: 61.58px;
+    padding: 0px 89.52px 0px 89.49px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    background: #603601;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);
+    color: white;
+    position: relative;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+select {
+    background: #603601;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+#sect1 {
+    display: flex;
+    padding: 168.01px 577.33px 168.16px 577.3px;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+    align-self: stretch;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), url(img/coffee_content.jpg), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 1611.02px;
+}
+#sect2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 68.5px;
+    max-width: 1611.02px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+}
+#sect3 {
+    display: flex;
+    width: 1790px;
+    padding: 30px 89.49px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    
+}

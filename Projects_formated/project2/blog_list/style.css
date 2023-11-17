@@ -1,0 +1,86 @@
+html {
+    background-color: gray;
+}
+body {
+    width: 900px;
+    height: 1210px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 20px;
+}
+header {
+    position: relative;
+    height: 120px;
+    background-color: rgb(49, 73, 87);
+    color: white;
+    text-align: center;
+}
+
+button {
+    border: none;
+
+}
+#css {
+    background-color: green;
+    color: white;
+}
+#html {
+    background-color: blue;
+    color: white;
+}
+#javascript {
+    background-color: red;
+    color: white;
+}
+#Uncategorized {
+    background-color: gray;
+    color: white;
+}
+section {
+    position: relative;
+    margin-top: 40px;
+}
+.image {
+    position: absolute;
+    right: 10px;
+    width: 60px;
+    border-radius: 50px;
+}
+figure {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+#fig1 {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 22px;
+}
+#fig2 {
+    position: absolute;
+    bottom: 15px;
+    right: 265px;
+    color: white;
+    font-size: 22px;
+}
+footer {
+    position: relative;
+    height: 150px;
+    background-color: rgb(41, 45, 48);
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+}
+ul {
+    display: flex;
+    justify-content: center;
+}
+li {
+    margin-right: 40px;
+}
