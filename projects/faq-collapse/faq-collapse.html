@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faq Collapse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="window">Why shouldn't we trust atoms? 
+        <button>↓</button> 
+        <h1>THEY MAKE UP EVERYTHING!</h1>
+    </div>
+    <div class="window">What do you call someone with no body and no nose? 
+        <button>↓</button>
+        <h1>NOBODY NOSE</h1>
+    </div>
+    <div class="window">What's the object-oriented way to become wealthy? 
+        <button>↓</button>
+        <h1>INHERITANCE</h1>
+    </div>
+    <div class="window">How many tickles does it take to tickle an octopus? 
+        <button>↓</button>
+        <h1>TEN-TICKLES</h1>
+    </div>
+    <div class="window">What is: 1+1? 
+        <button>↓</button>
+        <h1>1 + 1 = 1 : ANSWER IS '1'</h1>
+    </div>
+    <script>
+        var tag=document.getElementsByClassName('window')
+
+        for(let i=0; i<tag.length; i++){
+            tag[i].addEventListener('click',function(){
+                tag[i].style.height='80px'
+            })
+            tag[i].addEventListener('mouseout',function(){
+                tag[i].style.height='20px'
+            })
+        }
+    </script>
+</body>
+</html>

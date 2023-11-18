@@ -87,11 +87,67 @@ select {
 .slide {
     width: 900px;
     height: 350px;
+    margin: 0 auto;
+    box-shadow: 2px 2px 2px rgb(163, 163, 163);
+    transition: 1s;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    box-sizing: border-box;
+}
+.sliding {
+        width: 900px;
+        height: 350px;
+        margin: 0 auto;
+        box-shadow: 2px 2px 2px rgb(163, 163, 163);
+        transition: 1s;
+        overflow: hidden;
+        transition: transform 0.5s ease-in-out;
+        box-sizing: border-box;
+}
+#slider1 {
     background-image: url(img/slide.jpg);
     background-position: center;
     background-size: cover;
-    margin: 0 auto;
-    box-shadow: 2px 2px 2px rgb(163, 163, 163);
+    width: 900px;
+    height: 350px;
+}
+#slider2 {
+    background-image: url(img/handsome1.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 900px;
+    height: 350px;
+}
+#slider3 {
+    background-image: url(img/handsome2.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 900px;
+    height: 350px;
+}
+#prev {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    left: 0;
+}
+#next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    right: 0;
 }
 #sector4 {
     max-width: 1000px;
