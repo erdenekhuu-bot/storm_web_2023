@@ -1,0 +1,80 @@
+.head {
+  display: flex;
+  max-width: 1091px;
+  padding: 39px 48px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 116px;
+  border-bottom: 1px solid var(--grey-light-grey-3, #E2E8EE);
+  background: #FFF;
+  justify-content: space-between;
+}
+.layer-1 {
+  display: flex;
+  width: 898px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+input {
+  position: relative;
+  display: flex;
+  max-width: 572px;
+  height: 39px;
+  padding: 0px 25px;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 20px;
+}
+#searchbtn {
+  position: relative;
+  width: 50px;
+  height: 43px;
+  font-size: 28px;
+  right: 146px;
+  border-left: none;
+  background-color: #FFF;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+#sign-up {
+  display: flex;
+  padding: 10px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--grey-dark-grey-4, #DCE3EA);
+  background: var(--grey-light-white, #FFF);
+  color: var(--iblog-primary, #E86B02);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 21px; /* 131.25% */
+}
+#sign-in {
+  display: flex;
+  padding: 10px 30px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  gap: 10px;
+  border-radius: 10px;
+  background: var(--iblog-primary, #E86B02);
+  color: #FFF;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px; /* 140% */
+}
+#head-logo {
+  color: #F77268;
+  font-family: Okta Neue;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

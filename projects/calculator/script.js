@@ -16,6 +16,10 @@ function pass(arg){
 //       label.innerHTML=eval(arg)
 // }
 
+function linearsolve(){
+    label.innerHTML=eval(label.innerHTML)
+}
+
 
 function result(){
    for(let i=0; i<label.innerHTML.length; i++){

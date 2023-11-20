@@ -1,0 +1,12 @@
+body {
+    width: 1440px;
+    height: 3323px;
+    background: #FFF;
+}
+main {
+    display: flex;
+    width: 898px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
