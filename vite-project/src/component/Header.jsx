@@ -10,9 +10,12 @@ import logo from '../assets/Group.png'
                 <img src={logo} alt='iblog'/><span id='logo-txt'><b id='sub-logo'>i</b>Blog</span>
             </span>
             <input type='text' placeholder='Хайх'/>
-            <button id='searchbtn'>⌕</button>
-            <button id='sign-up'>Бүртгүүлэх</button>
-            <button id='sign-in'>Нэвтрэх</button>
+            {/* <button id='searchbtn'>⌕</button> */}
+            <div>
+                <button id='sign-up'>Бүртгүүлэх</button>
+                <button id='sign-in'>Нэвтрэх</button>
+            </div>
+           
         </header>
     );
 }

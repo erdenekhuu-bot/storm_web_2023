@@ -20,6 +20,7 @@
 input {
   position: relative;
   display: flex;
+  min-width: 372px;
   max-width: 572px;
   height: 39px;
   padding: 0px 25px;
@@ -78,3 +79,7 @@ input {
   font-weight: 400;
   line-height: normal;
 }
+#line {
+  display: flex;
+}
+
