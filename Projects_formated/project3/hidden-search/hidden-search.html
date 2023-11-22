@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hidden search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <input type="text">
+        <button id="click">click me</button>
+    </div>
+    <script>
+        var btn=document.getElementById('click')
+        var input=document.querySelector('input')
+        var cnt=60
+        var inc=156
+        var dec=200
+        function f1(){
+            input.style.width=cnt+'px'
+            input.style.left=dec+'px'
+            btn.style.right=inc+'px'
+            if(cnt<380 && dec>10 && inc>23){
+                cnt+=10
+                dec-=10
+                inc-=10
+                setInterval(f1,100)
+            }
+        }
+        btn.addEventListener('click', f1)
+    </script>
+</body>
+</html>

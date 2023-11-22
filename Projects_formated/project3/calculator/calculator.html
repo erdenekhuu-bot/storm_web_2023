@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background">
+        <label for="output" id="output"></label> <p></p>
+        <div class="items">
+            <button class="letter" onclick="non('')">AC</button>
+            <button class="letter" onclick="backSpace()">Del</button>
+            <button class="sign" onclick="num('.')">.</button>
+            <button class="sign" onclick="num('/')">/</button>
+            <button class="number" value="7" onclick="num(7)">7</button>
+            <button class="number" value="8" onclick="num(8)">8</button>
+            <button class="number" value="9" onclick="num(9)">9</button>
+            <button class="sign" onclick="num('*')">*</button>
+            <button class="number" value="4" onclick="num(4)">4</button>
+            <button class="number" value="5" onclick="num(5)">5</button>
+            <button class="number" value="6" onclick="num(6)">6</button>
+            <button class="sign" onclick="num('-')">-</button>
+            <button class="number" value="1" onclick="num(1)">1</button>
+            <button class="number" value="2" onclick="num(2)">2</button>
+            <button class="number" value="3" onclick="num(3)">3</button>
+            <button class="sign" onclick="num('+')">+</button>
+            <button class="zero" onclick="pass(0)">00</button>
+            <button class="zero" onclick="num(0)">0</button>
+            <button id="equal" onclick="linearsolve()">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

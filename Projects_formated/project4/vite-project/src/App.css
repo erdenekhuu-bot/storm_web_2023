@@ -1,0 +1,32 @@
+.slide-menu {
+    position: relative;
+    width: 278px;
+    height: 3323px;
+    background-color: aqua;
+    padding: 40px 49px;
+}
+.iblog {
+    position: relative;
+    width: 250px;
+    height: 533px;
+    background-color: blue;
+}
+#let {
+    color: #F77268;
+    font-size: 30px;
+}
+#tter {
+    font-size: 30px;
+    color: #FC9419;
+}
+.frame {
+    position: relative;
+    height: 37px;
+    width: 250px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3%;
+    justify-content: space-between;
+    cursor: pointer;
+}

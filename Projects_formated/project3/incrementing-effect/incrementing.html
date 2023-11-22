@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incremeting-effect</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box" onclick="f1()">
+        <p></p>
+       <img src="youtube.png" alt="" width="100px" height="100px"> <br>
+        <label id="number">5000</label> <p></p>
+        <b>YouTube Subscribers</b>
+    </div>
+    <script>
+        var label=document.getElementById('number')
+        var state
+        var count=10
+        function f1(){
+            if(count<=5000){
+            label.innerHTML=count
+            count+=5
+            setInterval(f1, 100)
+           }
+        }
+        
+    </script>
+</body>
+</html>

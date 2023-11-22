@@ -2,7 +2,7 @@
 import React from 'react';
 import '../App.css'
 import logo from '../assets/Group.png'
- function Header() {
+function Header() {
 
     return (
         <header className='head'>
@@ -11,10 +11,10 @@ import logo from '../assets/Group.png'
             </span>
             <input type='text' placeholder='Хайх'/>
             {/* <button id='searchbtn'>⌕</button> */}
-            <div>
+            <span>
                 <button id='sign-up'>Бүртгүүлэх</button>
                 <button id='sign-in'>Нэвтрэх</button>
-            </div>
+            </span>
            
         </header>
     );

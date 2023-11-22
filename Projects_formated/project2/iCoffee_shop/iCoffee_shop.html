@@ -3,50 +3,444 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>iCoffee shop</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <span>
+        <div>
             <img src="img/icon_coffee.png" alt="">
-            iCoffee showp
-        </span>
-        <span>
+            <b id="tt">iCoffee shop</b>
+        </div>
+        <div class="down">
             home 
-            <select>
-                <option>about</option>
-            </select>
-            <select>
-                <option>Blog</option>
-            </select>
-            <select>
-                <option>Shop</option>
-            </select>
+            <select><option value="about">about</option></select>
+            <select><option value="Blog">Blog</option></select>
+            <select><option value="Shop">Shop</option></select>
             Contact
-        </span>
-        <span>
+        </div>
+        <div class="icon">
             <img src="img/icon_human.png" alt="">
             <img src="img/icon_store.png" alt="">
-        </span>
+        </div>
     </header>
     <main>
-        <section id="sect1">
-
+        <section class="hd1">
+            <div class="internal-pack">
+                <span style="font-size: 45px;">A cup of coffee for every mood.</span> <p></p>
+                <span style="font-size: 20px;">We don't make your coffee. We make your day.</span> <p></p>
+                <div>
+                    <button style="background-color: #C69B7B;">Меню харах</button>
+                    <button style="background-color: #603601;">Ширээ захиалах</button>
+                </div>
+            </div>
         </section>
-        <section id="sect2">About Us
-            <img src="img/pseudo.png" alt="">
-            <img src="img/pseudo-1.png" alt="" style="position: relative;
-                                                      bottom: 2.99px;">
+        <section class="hd2">
+            <div class="tag">
+                <b style="font-size: 35.2px">About Us</b>
+                <div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="grid-template">
+                <img src="img/About-Image.png" alt="" width="800px" height="450px">
+                <div class="pattern">
+                    <b style="font-size: 40px; font-family: sans-serif;">Coffee the way it was meant to be.</b> <p></p>
+                    <b style="font-size: 19px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum voluptatibus dolores aspernatur
+                        animi perferendis iste!</b>
+                        <p style="width: 704px; height: 116px;">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptatibus dolores aspernatur animi
+                            perferendis iste! Culpa aut enim debitis optio illum ipsum quis perferendis dolor expedita. Similique
+                            necessitatibus inventore doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                            voluptatibus dolores aspernatur animi.
+                        </p>
+                        <button class="contact-us">Contact us</button>
+                </div>
+            </div>
         </section>
-        <section id="sect3">
-            <div style="width: 786px;
-                        height: 786px;
-                        flex-shrink: 0;
-                        background: url(img/About-Image.png), lightgray 50% / cover no-repeat;">
+        <section class="hd2">
+            <div class="tag-m">
+                <b style="font-size: 35.2px">Our services</b>
+                <div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="box-list">
+                <div class="box">
+                    <img src="img/box1.png" alt="" class="img-box"> <br>
+                    <div class="padd">
+                        <b style="font-size: 25px;">selected coffee beans</b> <p></p>
+                        <span style="font-size: 15px;">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit.</span>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/box2.png" alt="" class="img-box"> <br>
+                    <div class="padd">
+                        <b style="font-size: 25px;">own roasting</b> <p></p>
+                        <span style="font-size: 15px;">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit.</span>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/box3.png" alt="" class="img-box"> <br>
+                    <div class="padd">
+                        <b style="font-size: 25px;">high quality</b> <p></p>
+                        <span style="font-size: 15px;">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit.</span>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/box4.png" alt="" class="img-box"> <br>
+                    <div class="padd">
+                        <b style="font-size: 25px;">freshly brewed</b> <p></p>
+                        <span style="font-size: 15px;">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit.</span>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/box5.png" alt="" class="img-box"> <br>
+                    <div class="padd">
+                        <b style="font-size: 25px;">coffee variety</b> <p></p>
+                        <span style="font-size: 15px;">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit.</span>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/box6.png" alt="" class="img-box"> <br>
+                    <div class="padd">
+                        <b style="font-size: 25px;">Excellent grinding</b> <p></p>
+                        <span style="font-size: 15px;">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit.</span>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="hd2">
+            <div class="tag-h">
+                <b style="font-size: 35.2px">Our menu</b>
+                <div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="list-button">
+                <button class="btnx">Coffee</button>
+                <button class="btnx">Hot drinks</button>
+                <button class="btnx">Desserts</button>
+            </div>
+            <div class="container">
+                <div class="container-box">
+                      <span class="coffee-menu"><b style="font-size: 22px;">Americano</b><b style="font-size: 22px; color: #C69B7B;">$20</b></span> <p></p>
+                      <div style="width: 285px; height: 48px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                </div>
+                <div class="container-box">
+                    <span class="coffee-menu"><b style="font-size: 22px;">Cappuccino</b><b style="font-size: 22px; color: #C69B7B;">$20</b></span> <p></p>
+                    <div style="width: 285px; height: 48px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                </div>
+                <div class="container-box">
+                    <span class="coffee-menu"><b style="font-size: 22px;">Macchiato</b><b style="font-size: 22px; color: #C69B7B;">$20</b></span> <p></p>
+                    <div style="width: 285px; height: 48px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                </div>
+                <div class="container-box">
+                    <span class="coffee-menu"><b style="font-size: 22px;">Mocha</b><b style="font-size: 22px; color: #C69B7B;">$20</b></span> <p></p>
+                    <div style="width: 285px; height: 48px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                </div>
+                <div class="container-box">
+                    <span class="coffee-menu"><b style="font-size: 22px;">Latte</b><b style="font-size: 22px; color: #C69B7B;">$20</b></span> <p></p>
+                    <div style="width: 285px; height: 48px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                </div>
+                <div class="container-box">
+                    <span class="coffee-menu"><b style="font-size: 22px;">Glacier</b><b style="font-size: 22px; color: #C69B7B;">$20</b></span> <p></p>
+                    <div style="width: 285px; height: 48px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                </div>
+                <div class="container-box">
+                    <span class="coffee-menu"><b style="font-size: 22px;">Black coffee</b><b style="font-size: 22px; color: #C69B7B;">$20</b></span> <p></p>
+                    <div style="width: 285px; height: 48px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                </div>
+                <div class="container-box">
+                    <span class="coffee-menu"><b style="font-size: 22px;">Instant coffee</b><b style="font-size: 22px; color: #C69B7B;">$20</b></span> <p></p>
+                    <div style="width: 285px; height: 48px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                </div>
+                <div class="container-box">
+                    <span class="coffee-menu"><b style="font-size: 22px;">Espresso</b><b style="font-size: 22px; color: #C69B7B;">$20</b></span> <p></p>
+                    <div style="width: 285px; height: 48px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                </div>
+            </div>
+        </section>
+        <section class="hd2">
+            <div class="tag-w">
+                <b style="font-size: 35.2px">Our preoducts</b>
+                <div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="container1">
+                <div class="container-box1">
+                      <img src="img/pro-1.png" alt=""> <p></p>
+                      <div style="font-size: 22px; font-weight: bold;">Cupcake</div>
+                      <img src="img/full-star.png" alt="">
+                      <img src="img/full-star.png" alt="">
+                      <img src="img/full-star.png" alt="">
+                      <img src="img/full-star.png" alt="">
+                      <img src="img/half-star.png" alt=""> <p></p>
+                      <b style="font-size: 18px; color: #C69B7B;">$12.00</b>  <b style="text-decoration: line-through;">%15.00</b>
+                </div>
+                <div class="container-box1">
+                    <img src="img/pro-2.png" alt=""> <p></p>
+                    <div style="font-size: 22px; font-weight: bold;">Cappuccino</div>
+                    <img src="img/full-star.png" alt="">
+                    <img src="img/full-star.png" alt="">
+                    <img src="img/full-star.png" alt="">
+                    <img src="img/full-star.png" alt="">
+                    <img src="img/half-star.png" alt=""> <p></p>
+                    <b style="font-size: 18px; color: #C69B7B;">$12.00</b>  <b style="text-decoration: line-through;">%15.00</b>
+                </div>
+                <div class="container-box1">
+                    <img src="img/pro-3.png" alt=""> <p></p>
+                    <div style="font-size: 22px; font-weight: bold;">Doughnut</div>
+                    <img src="img/full-star.png" alt="">
+                    <img src="img/full-star.png" alt="">
+                    <img src="img/full-star.png" alt="">
+                    <img src="img/full-star.png" alt="">
+                    <img src="img/half-star.png" alt=""> <p></p>
+                    <b style="font-size: 18px; color: #C69B7B;">$12.00</b>  <b style="text-decoration: line-through;">%15.00</b>
+                </div>
+                <div class="container-box1">
+                    <img src="img/pro-4.png" alt=""> <p></p>
+                    <div style="font-size: 22px; font-weight: bold;">Latte</div>
+                    <img src="img/full-star.png" alt="">
+                    <img src="img/full-star.png" alt="">
+                    <img src="img/full-star.png" alt="">
+                    <img src="img/full-star.png" alt="">
+                    <img src="img/half-star.png" alt=""> <p></p>
+                    <b style="font-size: 18px; color: #C69B7B;">$12.00</b>  <b style="text-decoration: line-through;">%15.00</b>
+                </div>
+                <div class="container-box1">
+                    <img src="img/pro-5.png" alt=""> <p></p>
+                    <div style="font-size: 22px; font-weight: bold;">Chocolate cake</div>
+                    <img src="img/full-star.png" alt="">
+                    <img src="img/full-star.png" alt="">
+                    <img src="img/full-star.png" alt="">
+                    <img src="img/full-star.png" alt="">
+                    <img src="img/half-star.png" alt=""> <p></p>
+                    <b style="font-size: 18px; color: #C69B7B;">$12.00</b>  <b style="text-decoration: line-through;">%15.00</b>
+                </div>
+                <div class="container-box1">
+                    <img src="img/pro-6.png" alt=""> <p></p>
+                    <div style="font-size: 22px; font-weight: bold;">Hot chocolate cake</div>
+                    <img src="img/full-star.png" alt="">
+                    <img src="img/full-star.png" alt="">
+                    <img src="img/full-star.png" alt="">
+                    <img src="img/full-star.png" alt="">
+                    <img src="img/half-star.png" alt=""> <p></p>
+                    <b style="font-size: 18px; color: #C69B7B;">$12.00</b>  <b style="text-decoration: line-through;">%15.00</b>
+                </div>
+                <div class="container-box1">
+                    <img src="img/pro-7.png" alt=""> <p></p>
+                    <div style="font-size: 22px; font-weight: bold;">Croisant</div>
+                    <img src="img/full-star.png" alt="">
+                    <img src="img/full-star.png" alt="">
+                    <img src="img/full-star.png" alt="">
+                    <img src="img/full-star.png" alt="">
+                    <img src="img/half-star.png" alt=""> <p></p>
+                    <b style="font-size: 18px; color: #C69B7B;">$12.00</b>  <b style="text-decoration: line-through;">%15.00</b>
+                </div>
+                <div class="container-box1">
+                    <img src="img/pro-8.png" alt=""> <p></p>
+                    <div style="font-size: 22px; font-weight: bold;">Green tea</div>
+                    <img src="img/full-star.png" alt="">
+                    <img src="img/full-star.png" alt="">
+                    <img src="img/full-star.png" alt="">
+                    <img src="img/full-star.png" alt="">
+                    <img src="img/half-star.png" alt=""> <p></p>
+                    <b style="font-size: 18px; color: #C69B7B;">$12.00</b>  <b style="text-decoration: line-through;">%15.00</b>
+                </div>
+            </div>
+        </section>
+        <section class="hd2">
+            <div class="tag-l">
+                <b style="font-size: 35.2px">Our team</b>
+                <div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="container2">
+                <div class="container-box2">
+                    <img src="img/Team-1 1.png" alt="" class="tm"><p></p>
+                    <b style="font-size: 25px;">Michael Jordan</b><p></p>
+                    <span style="font-size: 18px; color: #C69B7B;">CEO</span> <p></p>
+                    <img src="img/facebook.png" alt="">
+                    <img src="img/twitter.png" alt="">
+                    <img src="img/instagram.png" alt="">
+                    <img src="img/in.png" alt="">
+                </div>
+                <div class="container-box2">
+                    <img src="img/Team-2 1.png" alt="" class="tm"><p></p>
+                    <b style="font-size: 25px;">Amy Winehouse</b><p></p>
+                    <span style="font-size: 18px; color: #C69B7B;">Founder</span> <p></p>
+                    <img src="img/facebook.png" alt="">
+                    <img src="img/twitter.png" alt="">
+                    <img src="img/instagram.png" alt="">
+                    <img src="img/in.png" alt="">
+                </div>
+                <div class="container-box2">
+                    <img src="img/Team-3 1.png" alt="" class="tm"><p></p>
+                    <b style="font-size: 25px;">Magic Johnson</b><p></p>
+                    <span style="font-size: 18px; color: #C69B7B;">Manager</span> <p></p>
+                    <img src="img/facebook.png" alt="">
+                    <img src="img/twitter.png" alt="">
+                    <img src="img/instagram.png" alt="">
+                    <img src="img/in.png" alt="">
+                </div>
+                <div class="container-box2">
+                    <img src="img/Team-4 1.png" alt="" class="tm"><p></p>
+                    <b style="font-size: 25px;">Scarlett Johanson</b><p></p>
+                    <span style="font-size: 18px; color: #C69B7B;">Manager</span> <p></p>
+                    <img src="img/facebook.png" alt="">
+                    <img src="img/twitter.png" alt="">
+                    <img src="img/instagram.png" alt="">
+                    <img src="img/in.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="hd2">
+            <div class="tag-j">
+                <b style="font-size: 35.2px">Our blogs</b>
+                <div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="container3">
+                <div class="container-box3">
+                    <img src="img/final-1.png" alt=""> <p></p>
+                    <div style="padding: 10px;">
+                        <span style="display: flex; justify-content: space-between; font-size: 18px;"><button style="border-radius: 50px; padding: 10px 19.12px 11.5px 20px; background: #C69B7B; color: white; border: none;">Coffee</button><b>by admin</b></span> <p></p>
+                        <b style="font-size: 25px;">How to brew coffee the right way</b> <p></p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. <p></p>
+                        <button>read more</button>
+                    </div>
+                </div>
+                <div class="container-box3">
+                    <img src="img/final-2.png" alt=""> <p></p>
+                    <div style="padding: 10px;">
+                        <span style="display: flex; justify-content: space-between; font-size: 18px;"><button style="border-radius: 50px; padding: 10px 19.12px 11.5px 20px; background: #C69B7B; color: white; border: none;">Desserts</button><b>by admin</b></span> <p></p>
+                        <b style="font-size: 25px;">How to brew coffee the right way</b> <p></p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. <p></p>
+                        <button>read more</button>
+                    </div>
+                </div>
+                <div class="container-box3">
+                    <img src="img/final-3.png" alt=""> <p></p>
+                    <div style="padding: 10px;">
+                        <span style="display: flex; justify-content: space-between; font-size: 18px;"><button style="border-radius: 50px; padding: 10px 19.12px 11.5px 20px; background: #C69B7B; color: white; border: none;">Hot drinks</button><b>by admin</b></span> <p></p>
+                        <b style="font-size: 25px;">How to brew coffee the right way</b> <p></p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. <p></p>
+                        <button>read more</button>
+                        </div>
+                </div>
+            </div>
+            <p></p>
+            <div class="map">
+                <form action="">
+                    <p></p>
+                    <b style="font-size: 30px;">Get in touch</b> <p></p>
+                    <input type="text" placeholder="Name"> <p></p>
+                    <input type="text" placeholder="Email"> <p></p>
+                    <input type="text" placeholder="Subject"> <p></p>
+                    <textarea cols="83" rows="13" placeholder="Message" style="font-size: 16px;"></textarea>
+                    <button>Submit</button>
+                </form>
+                <img src="img/Google-map 1.png" alt="" class="google-map">
+            </div>
+            <p></p>
+            <div class="final">
+                <div class="bb">
+                    <img src="img/phone.png" alt="" width="60px"> <p></p>
+                    <b style="font-size: 20px;">Холбоо барих</b> <p></p>
+                    +976-99112233 <br>
+                    +976-88112233
+                </div>
+                <div class="bb">
+                    <img src="img/clock.png" alt="" width="60px"> <p></p>
+                    <b style="font-size: 20px;">Холбоо барих</b> <p></p>
+                    +976-99112233 <br>
+                    +976-88112233
+                </div>
+                <div class="bb">
+                    <img src="img/email.png" alt="" width="60px"> <p></p>
+                    <b style="font-size: 20px;">Холбоо барих</b> <p></p>
+                    +976-99112233 <br>
+                    +976-88112233
+                </div>
+                <div class="bb">
+                    <img src="img/address.png" alt="" width="60px"> <p></p>
+                    <b style="font-size: 20px;">Холбоо барих</b> <p></p>
+                    +976-99112233 <br>
+                    +976-88112233
+                </div>
             </div>
         </section>
     </main>
-    <footer></footer>
+    <footer id="ft1">
+        <div class="section1">
+            <div class="sc">
+                <div style="display: flex; align-items: center; height: 55px;">
+                    <b style="font-size: 25px;">iCoffee shop</b> <p></p>
+                </div>
+                <div style="height: 120px; font-size: 15px;">
+                    Манай кофе шопд бид зөвхөн кофегоор үйлчилдэггүй. Бидний зорилго
+                    бол зүгээр л кофегоо бэлтгэх биш, харин таны энэ өдрийн мүүдийг
+                    тогтоох юм. Бидний уриа бол кофе нь зүгээр л нэг уух зүйл биш - энэ бол
+                    амьдралын хэв маяг юм. Таныг бидэнтэй нэгдэж, төгс урлагийн ур
+                    чадвар, баяр баясгаланг мэдрэхийг урьж байна.
+                    <p></p>
+                    <img src="img/facebook_final.png" alt="">
+                    <img src="img/twitter_final.png" alt="">
+                    <img src="img/instagram_final.png" alt="">
+                    <img src="img/in_final.png" alt="">
+                </div>
+            </div>
+            <div id="sc1">
+                <div style="display: flex; align-items: center; height: 55px;">
+                    <b style="font-size: 25px;">Quick links</b> <p></p>
+                </div>
+                <div class="container-col">
+                    <div class="col" style="position: relative;">
+                        <img src="img/arrow.png" alt=""> home <p></p>
+                        <img src="img/arrow.png" alt=""> about <p></p>
+                        <img src="img/arrow.png" alt=""> team <p></p>
+                        <img src="img/arrow.png" alt=""> products <p></p>
+                        <img src="img/arrow.png" alt=""> FAQs <p></p>
+                        <img src="img/arrow.png" alt=""> menu <p></p>
+                    </div>
+                    <div class="col" style="position: relative;">
+                        <img src="img/arrow.png" alt=""> gallery <p></p>
+                        <img src="img/arrow.png" alt=""> reservation <p></p>
+                        <img src="img/arrow.png" alt=""> blog <p></p>
+                        <img src="img/arrow.png" alt=""> shop <p></p>
+                        <img src="img/arrow.png" alt=""> contact <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="sc">
+                <div style="display: flex; align-items: center; height: 55px;">
+                    <b style="font-size: 25px;">Contact info</b> <p></p>
+                </div>
+                <div style="height: 120px; font-size: 15px;">
+                   <img src="img/phone.png" alt="" width="20px"> +976-111-222 <p></p>
+                   <img src="img/phone.png" alt="" width="20px"> +976-123-456 <p></p>
+                   <img src="img/email.png" alt="" width="20px"> icode@cafe.com <p></p>
+                   <img src="img/address.png" alt="" width="20px"> Ulaanbaatar, Mongolia <p></p>
+                </div>
+            </div>
+        </div>
+        <p></p>
+    </footer>
 </body>
 </html>

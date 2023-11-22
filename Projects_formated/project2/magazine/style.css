@@ -1,0 +1,24 @@
+.container {
+    display: grid;
+    grid-template-columns: 30% 50%;
+    grid-template-rows: 1;
+}
+
+.title {
+    position: relative;
+    font-size: 48px;
+    left: 40px;
+    background-color: aqua;
+}
+.bod {
+    position: relative;
+    width: 200px;
+    margin: 6%;
+    background-color: brown;
+}
+.subcont {
+    display: grid;
+    grid-template-columns: 30% 30%;
+    width: 100px;
+    background-color: aqua;
+}

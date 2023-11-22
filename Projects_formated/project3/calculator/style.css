@@ -1,0 +1,53 @@
+.background {
+    background-color: blue;
+    width: 300px;
+    height: 430px;
+    margin: 50px auto;
+    padding: 5px;
+    border-radius: 5px;
+}
+button {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin: 5px;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+.items {
+    margin-top: 55px;
+}
+#equal {
+    width: 135px;
+    background-color: green;
+    border: none;
+}
+label {
+    height: 50px;
+    width: 300px;
+    background-color: rgb(14, 202, 202);
+    position: absolute;
+    border-radius: 5px;
+    color: white;
+    font-size: 32px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.letter {
+    background-color: rgb(128, 2, 2);
+    border: none;
+}
+.sign {
+    background-color: rgb(243, 180, 64);
+    border: none;
+}
+.number {
+    background-color: #013560;
+    border: none;
+}
+.zero {
+    background-color: rgb(14, 202, 202);
+    border: none;
+}
