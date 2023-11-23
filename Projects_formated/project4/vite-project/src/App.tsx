@@ -1,12 +1,19 @@
+import { Children } from 'react'
+import {ReactNode} from 'react'
 import './App.css'
-import Slide from './component/SlideMenu'
+import {Slide, SearchBar, Background} from './component/Main'
+
+interface createElement {
+  children?: ReactNode;
+}
+
 
 function App() {
 
   return (
-    <>
-     <Slide/>
-    </>
+    <div>
+     <Background/>
+    </div>
   )
 }
 

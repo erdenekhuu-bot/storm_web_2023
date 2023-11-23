@@ -82,4 +82,10 @@ input {
 #line {
   display: flex;
 }
+.pattern {
+  position: relative;
+  width: 1091px;
+  height: 119px;
+  background-color: aquamarine;
+}
 
