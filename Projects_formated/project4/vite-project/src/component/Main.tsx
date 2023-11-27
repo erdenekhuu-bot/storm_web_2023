@@ -18,16 +18,16 @@ function Slide(){
                 <span id='let'>i</span><span id='tter'>blog</span>
                 <p></p>
                 <div className="frame">
-                    <span>Lifestyle</span><img src={arrow} alt='arrow'/>
+                    <span>Lifestyle</span><img src={arrow} onClick={function(){}} alt='arrow'/>
                 </div>
                 <div className='frame'>
-                    <span>Sport</span><img src={arrow} alt='arrow'/>
+                    <span>Sport</span><img src={arrow} onClick={function(){}} alt='arrow'/>
                 </div>
                 <div className='frame'>
-                    <span>Technology</span><img src={arrow} alt='arrow'/>
+                    <span>Technology</span><img src={arrow} onClick={function(){}} alt='arrow'/>
                 </div>
                 <div className='frame'>
-                    <span>Entertainment</span><img src={arrow} alt='arrow'/>
+                    <span>Entertainment</span><img src={arrow} onClick={function(){}} alt='arrow'/>
                 </div>
             </div>
         </div>

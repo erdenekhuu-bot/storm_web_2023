@@ -41,10 +41,10 @@
 .search-bar {
     position: relative;
     width: 1091px;
-    height: 50px;
+    height: 40px;
     color: black;
     background-color: rgb(117, 117, 117);
-    padding: 39px;
+    padding: 30px;
     display: flex;
     justify-content: space-around;
 }

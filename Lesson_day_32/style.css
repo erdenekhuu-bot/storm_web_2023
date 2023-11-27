@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+#book-list {
+    margin-bottom: 20px;
+}
+.book {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
