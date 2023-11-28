@@ -1,3 +1,4 @@
+import Box from "./Box";
 function Search(){
     return (
         <div className="left-bar">
@@ -16,11 +17,12 @@ function Search(){
             </div>
             
             <div id="search-row2">
-            <div className='lhead'>
-                <button id='hbtn1'><b>LIFESTYLE</b></button>
-                <button id='hbtn2'></button>
-                <button id='hbtn3'>Бүгд →</button>
-            </div>
+                <div className='lhead'>
+                    <button id='hbtn1'><b>LIFESTYLE</b></button>
+                    <button id='hbtn2'></button>
+                    <button id='hbtn3'>Бүгд →</button>
+                    <Box/>
+                </div>
             </div>
         </div>
     )

@@ -17,12 +17,14 @@
     color: #FC9419;
 }
 .left-bar {
-    background-color: yellow;
     display: grid;
     grid-template-rows: 1fr 18fr;
 }
 #search-row1 {
     background-color: blueviolet;
+}
+#search-row2 {
+    padding: 30px;
 }
 #title {
     width: 250px;
@@ -103,4 +105,37 @@ input {
     border-radius: 29px;
     border: 5px;
     border-color: white;
+}
+.lhead {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+#hbtn1 {
+    flex-grow: 0;
+    border: none;
+    background: none;
+}
+#hbtn2 {
+    flex-grow: 8;
+    border: none;
+    background: none;
+}
+#hbtn3 {
+    flex-grow: 0;
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+.box-container {
+    display: flex;
+    margin: 10px auto;
+    overflow: hidden;
+    justify-content: space-around;
+}
+.box {
+    padding: 3px;
+    height: 288.71px;
+    width: 210px;
 }
