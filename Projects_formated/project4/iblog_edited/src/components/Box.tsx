@@ -6,7 +6,7 @@ function Box(){
     return (
         <div className='box-container'>
             <div className='box'>
-            <img src={img} alt='img...'/> <br />
+            <img src={img} alt='img...' width={210} height={140}/> <br />
             <b>The Impact of <br/>Technology on the <br /> Workplace</b> <br />
             <div className='subrow'>
                 <span>

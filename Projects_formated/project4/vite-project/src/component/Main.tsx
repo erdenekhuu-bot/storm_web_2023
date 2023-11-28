@@ -1,13 +1,17 @@
 import icon from '../assets/icon.png'
 import arrow from '../assets/arrow.png'
 import '../App.css'
+import Box from './Box'
+// interface SlideProps {
+//     children?: ReactNode;
+// }
 import img from '../assets/img.png'
 import Image from '../assets/Image.png'
 import heart from '../assets/heart.png'
 import share from '../assets/share.png'
-// interface SlideProps {
-//     children?: ReactNode;
-// }
+
+
+
 
 function Slide(){
 
@@ -18,16 +22,16 @@ function Slide(){
                 <span id='let'>i</span><span id='tter'>blog</span>
                 <p></p>
                 <div className="frame">
-                    <span>Lifestyle</span><img src={arrow} onClick={function(){}} alt='arrow'/>
+                    <span>Lifestyle</span><img src={arrow} onClick={()=>{setState(1)}} alt='arrow'/>
                 </div>
                 <div className='frame'>
-                    <span>Sport</span><img src={arrow} onClick={function(){}} alt='arrow'/>
+                    <span>Sport</span><img src={arrow} onClick={()=>setState(1)} alt='arrow'/>
                 </div>
                 <div className='frame'>
-                    <span>Technology</span><img src={arrow} onClick={function(){}} alt='arrow'/>
+                    <span>Technology</span><img src={arrow} onClick={()=>setState(1)} alt='arrow'/>
                 </div>
                 <div className='frame'>
-                    <span>Entertainment</span><img src={arrow} onClick={function(){}} alt='arrow'/>
+                    <span>Entertainment</span><img src={arrow} onClick={()=>setState(1)} alt='arrow'/>
                 </div>
             </div>
         </div>

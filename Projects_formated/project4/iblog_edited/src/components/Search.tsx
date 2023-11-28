@@ -1,8 +1,9 @@
-import Box from "./Box";
+import {Layer, Layer_final} from "./Block_layer";
+import Footer from "./Footer_layer";
 function Search(){
     return (
         <div className="left-bar">
-            <div id="search-row1">
+            <div className="search-row1">
                 <div id="box-search">
                     <div id="external">
                         <input type="text" placeholder="Хайх"/>
@@ -13,17 +14,16 @@ function Search(){
                         <button id="signin">Нэвтрэх</button>
                     </div>
                 </div>
-                
             </div>
-            
-            <div id="search-row2">
-                <div className='lhead'>
-                    <button id='hbtn1'><b>LIFESTYLE</b></button>
-                    <button id='hbtn2'></button>
-                    <button id='hbtn3'>Бүгд →</button>
-                    <Box/>
-                </div>
-            </div>
+
+
+
+
+                <Layer txt='LIFESTYLE'/>
+                <Layer txt='TECHNOLOGY'/>
+                <Layer txt="HEALTH"/>
+                <Layer_final txt="Цаах унших"/>
+           <Footer/>
         </div>
     )
 }
