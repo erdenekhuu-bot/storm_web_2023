@@ -15,10 +15,6 @@ function Search(){
                     </div>
                 </div>
             </div>
-
-
-
-
                 <Layer txt='LIFESTYLE'/>
                 <Layer txt='TECHNOLOGY'/>
                 <Layer txt="HEALTH"/>

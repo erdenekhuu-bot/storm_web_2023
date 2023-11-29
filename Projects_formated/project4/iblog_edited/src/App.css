@@ -55,17 +55,21 @@ ul {
 }
 .slide-box {
     position: relative;
-    margin: 80px auto;
+    margin: 15px auto;
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-between;
 }
 .sub-slide {
     position: relative;
-    width: 250px;
+    width: 150px;
     height: 37px;
-    padding: 10px;
-    margin: 3px;
+    margin: 10px;
+    padding: 3px;
     display: flex;
     align-items: center;
     color: black;
+    border-radius: 5px;
 }
 .sub-slide:hover {
     background-color: #E86B02;

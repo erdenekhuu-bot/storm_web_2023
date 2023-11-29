@@ -1,6 +1,6 @@
 import Box from "./Box"
 
-export  function Layer(props: {txt: string}){
+export function Layer(props: {txt: string}){
     return (
         <div className="search-row2">
             <div className='lhead'>
