@@ -9,9 +9,7 @@ function Box(){
             <img src={img} alt='img...' width={210} height={140}/> <br />
             <b>The Impact of <br/>Technology on the <br /> Workplace</b> <br />
             <div className='subrow'>
-                <span>
-                    <img src={Image} alt=''/>Tracey Wilson
-                </span>
+                <span><img src={Image} alt=''/>Tracey Wilson</span>
                 <span className='post'>Aug 20, 2022</span>
             </div>
 

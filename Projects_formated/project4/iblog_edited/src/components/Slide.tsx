@@ -1,7 +1,6 @@
 import title from '../assets/title_icon.png'
 import '../App.css'
 import frame from '../assets/Frame.png'
-import { useState } from 'react'
 import { Menu1, Menu2 } from './Menu'
 
 var slide=document.getElementsByClassName('slide-box')
