@@ -1,5 +1,5 @@
 
-
+import secondLayer from "./secondBox"
 export function Menu1(arg:{txt1:string, txt2:string, txt3:string, txt4:string}){
     return (
         <div>
