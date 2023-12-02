@@ -4,9 +4,9 @@ export default function secondLayer(props: {txt1: string, sign: string, txt2: st
     return (
         <div className="search-row2">
             <div className='lhead'>
-                <button id='hbtn4'>{props.txt1} {props.sign}</button>
-                <button id='hbtn5'>{props.txt2} {props.sign}</button>
-                <button id='hbtn6'>{props.txt3}</button>
+                <button id='hbtn4'>{props.txt1} {props.sign}</button>   {/* Нүүр хуудас > */}
+                <button id='hbtn5'>{props.txt2} {props.sign}</button>   {/* Lifestyle > */}
+                <button id='hbtn6'>{props.txt3}</button>   {/* Hobby */}
             </div>
             <div className="lhead-ct">
                 <Box/>
