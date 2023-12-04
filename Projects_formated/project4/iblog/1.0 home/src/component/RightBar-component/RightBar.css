@@ -1,0 +1,7 @@
+.RightBar {
+    display: grid;
+    grid-template-rows: 1fr 18fr 1fr;
+    border-color: rgb(190, 190, 190);
+    border-width: 1px;
+    border-style: solid;
+}

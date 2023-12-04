@@ -1,0 +1,34 @@
+.MenuBar {
+    font-size: 14px;
+    color: black;
+}
+.i {
+    font-size: 30px;
+    color: #F77268;
+    font-family: sans-serif;
+}
+.blog {
+    font-size: 30px;
+    color: #FC9419;
+    font-family: sans-serif;
+}
+
+.slide {
+    position: relative;
+    display: flex;
+    width: 250px;
+    height: 37px;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+}
+.expanded {
+    width: 250px;
+    height: 45px;
+}

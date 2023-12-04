@@ -1,0 +1,79 @@
+.SearchBar {
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.i {
+    font-size: 30px;
+    color: #F77268;
+    font-family: sans-serif;
+}
+.blog {
+    font-size: 30px;
+    color: #FC9419;
+    font-family: sans-serif;
+}
+#border {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    width: 630px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 33px;
+    border-color: rgb(190, 190, 190);
+}
+#space-btn {
+    display: flex;
+    justify-content: space-around;
+}
+#post {
+    width: 111px;
+    height: 41px;
+    margin: 5px;
+    border-width: 1px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    background-color: #E86B02;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+#profile {
+    width: 111px;
+    height: 41px;
+    margin: 5px;
+    border-width: 1px;
+    background-color: white;
+    color: #E86B02;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+input {
+    width: 572px;
+    height: 39px;
+    padding: 4px;
+    border-style: hidden;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-color: rgb(190, 190, 190);
+}
+.btn {
+    background-color: white;
+    font-size: 18px;
+    padding: 9.5px;
+    width: 54px;
+    height: 44px;
+    border-style: hidden;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+}

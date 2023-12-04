@@ -1,0 +1,15 @@
+.MainPage {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  width: 1440px;
+  height: 1882px;
+}
+.SecondPage {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  width: 1440px;
+  height: 1480px;
+}
+button {
+  cursor: pointer;
+}

@@ -1,0 +1,29 @@
+.CardBar {
+    border-width: 1px;
+    border-color: rgb(190, 190, 190);
+    padding: 30px;
+    border-style: solid;
+    display: grid;
+    grid-template-rows: 10fr 1fr 1fr;
+}
+.card-btn {
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+}
+.cbtn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    padding: 5px;
+    border: none;
+    background-color: white;
+}
+#next-read {
+    width: 141px;
+    height: 48px;
+    color: #696A75;
+    border-radius: 10px;
+    border: none;
+    margin: auto 10px;
+}

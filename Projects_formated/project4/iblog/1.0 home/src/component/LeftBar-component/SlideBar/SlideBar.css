@@ -1,0 +1,14 @@
+.box {
+    position: relative;
+}
+.subcat {
+    width: 250px;
+    height: 37px;
+    padding: 5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.subcat:hover {
+    background-color: #E86B02;
+}
