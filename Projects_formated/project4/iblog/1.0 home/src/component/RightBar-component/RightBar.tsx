@@ -1,7 +1,7 @@
 import SearchBar from "./SearchBar/SearchBar"
 // import CardBar from "./SecondCardBar/CardBar"
-import CardBar from "./CardBar/CardBar"
-// import CardBar from "./ThirdCardBar/CardBar"
+// import CardBar from "./CardBar/CardBar"
+import CardBar from "./ThirdCardBar/CardBar"
 import Footer from "./CardBar/Footer"
 
 const RightBar = function(){
