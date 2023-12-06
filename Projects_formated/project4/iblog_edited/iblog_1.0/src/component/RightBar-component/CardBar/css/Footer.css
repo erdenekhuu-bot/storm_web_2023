@@ -1,0 +1,8 @@
+.Footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    padding: 40px;
+    border-color: rgb(190, 190, 190);
+    border-style: solid;
+    border-width: 1px;
+}

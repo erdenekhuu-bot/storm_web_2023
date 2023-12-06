@@ -1,0 +1,13 @@
+.MenuTitle {
+    width: 150px;
+    height: 40px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-width: 2px;
+    border-color: #E86B02;
+    padding: 10px, 20px, 10px, 0px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}

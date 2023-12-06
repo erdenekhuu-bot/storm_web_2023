@@ -1,0 +1,6 @@
+.MainPage {
+   width: 1440px;
+   height: 1255px;
+   display: grid;
+   grid-template-rows: 0fr 5fr 1fr;
+}

@@ -1,0 +1,86 @@
+.SearchBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.i {
+    font-size: 30px;
+    color: #F77268;
+    font-family: sans-serif;
+}
+.blog {
+    font-size: 30px;
+    color: #FC9419;
+    font-family: sans-serif;
+}
+input {
+    width: 572px;
+    height: 39px;
+    padding: 4px;
+    border-style: hidden;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-color: rgb(190, 190, 190);
+}
+.btn {
+    background-color: white;
+    font-size: 18px;
+    padding: 9.5px;
+    width: 54px;
+    height: 44px;
+    border-style: hidden;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+}
+#border {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    width: 630px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 33px;
+    border-color: rgb(190, 190, 190);
+}
+#post {
+    background-color: #E86B02;
+    color: white;
+    border: none;
+    height: 41px;
+    width: 111px;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+}
+#profile {
+    background-color: white;
+    color: #E86B02;
+    border: none;
+    height: 41px;
+    width: 111px;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#menu {
+    position: absolute;
+    top: 13%;
+    display: none;
+}
+#post:hover > div {
+    display: block;
+}
+.domain {
+    width: 270px;
+    height: 42px;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+.domain:hover {
+    background-color: gray;
+}

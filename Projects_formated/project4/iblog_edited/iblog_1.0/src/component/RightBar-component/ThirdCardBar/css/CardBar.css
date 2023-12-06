@@ -1,0 +1,35 @@
+.CardBar {
+    position: relative;
+    border-width: 1px;
+    border-color: rgb(190, 190, 190);
+    padding: 40px;
+    border-style: solid;
+    display: grid;
+    grid-template-rows: 10fr 1fr;
+}
+.card-btn {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    font-size: 18px;
+    padding: 4px;
+}
+.cbtn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    padding: 5px;
+    border: none;
+    background-color: white;
+    color: #546371;
+    display: flex;
+    justify-content: space-around;
+}
+#next-read {
+    width: 141px;
+    height: 48px;
+    color: #696A75;
+    border-radius: 10px;
+    border: none;
+    margin: auto 10px;
+}

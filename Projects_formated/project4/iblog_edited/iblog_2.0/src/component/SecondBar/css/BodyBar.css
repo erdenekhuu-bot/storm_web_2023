@@ -1,0 +1,28 @@
+.BodyBar {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+#column-1 {
+    padding-left: 25%;
+}
+#column-2 {
+    display: grid;
+    grid-template-rows: 0fr 1fr;
+    background-color: aqua;
+}
+#sub-column-2 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+#btn {
+    width: 150px;
+    height: 40px;
+    padding: 10px, 20px, 10px, 0px;
+    border-width: 2px;
+    border-color: #E86B02;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: white;
+}
