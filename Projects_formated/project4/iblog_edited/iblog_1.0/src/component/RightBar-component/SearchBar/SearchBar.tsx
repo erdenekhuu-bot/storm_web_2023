@@ -2,7 +2,7 @@ import './SearchBar.css'
 
 const SearchBar = function(){
     return (
-        <>
+        <div className='layout-container'>
             <div className='SearchBar'>
                 <div id='border'>
                     <input type="text" placeholder='Хайх...'/>
@@ -13,7 +13,7 @@ const SearchBar = function(){
                     <button id='signIn'>Нэвтрэх</button>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 export default SearchBar

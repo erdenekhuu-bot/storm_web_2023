@@ -17,3 +17,8 @@ a {
   text-decoration: none;
   color: black;
 }
+
+.layout-container {
+  float: left;
+  width: 50%;
+}

@@ -12,7 +12,8 @@ const Ex04 = function(){
     useEffect(()=>{
         const fetchPosts = async function(){
             try {
-                const response = await axios.get(`https://jsonplaceholder.typicode.com/posts?_limit=${postsPerPage}&_page=${currentPage}`)
+                // const response = await axios.get(`https://jsonplaceholder.typicode.com/posts?_limit=${postsPerPage}&_page=${currentPage}`)
+                const response = await axios.get(`https://jsonplaceholder.typicode.com/posts`)
                 const jsonData = await response.data
                 console.log(jsonData);
                 setPosts(jsonData)

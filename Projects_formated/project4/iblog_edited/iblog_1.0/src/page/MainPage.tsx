@@ -1,33 +1,34 @@
+import { Outlet } from "react-router-dom";
 import LeftBar from "../component/LeftBar-component/LeftBar";
 import { RightBar, SecondRightBar, ThirdRightBar } from "../component/RightBar-component/RightBar";
+import Layout from "../component/Layout";
 // import  RightBar  from "../component/RightBar-component/RightBar";
 
-const MainPage = function(){
+const MainPage = function () {
     return (
         <div className="MainPage">
-            <LeftBar/>
-            <RightBar/>
+            <Layout/>
         </div>
     )
 }
 
-const SecondPage = function(){
+const SecondPage = function () {
     return (
         <div className="MainPage">
-            <LeftBar/>
-            <SecondRightBar/>
+            {/* <LeftBar /> */}
+            <SecondRightBar />
         </div>
     )
 }
 
-const ThirdPage = function(){
+const ThirdPage = function () {
     return (
         <div className="MainPage">
-            <LeftBar/>
-            <ThirdRightBar/>
+            {/* <LeftBar /> */}
+            <ThirdRightBar />
         </div>
     )
 }
 
-export {MainPage, SecondPage, ThirdPage}
+export { MainPage, SecondPage, ThirdPage }
 // export default MainPage

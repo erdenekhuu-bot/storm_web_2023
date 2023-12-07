@@ -7,7 +7,7 @@ import ThirdCardBar from "./ThirdCardBar/CardBar"
 const RightBar = function(){
     return (
         <div className="RightBar">
-            <SearchBar/>
+            
             <CardBar/>
             <Footer/>
         </div>
